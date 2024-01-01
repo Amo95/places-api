@@ -1,17 +1,23 @@
 package com.services.restaurantdataapi.restaurant;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.annotation.Version;
+import jakarta.persistence.*;
+import lombok.*;
 
-public record Restaurant(
+@Entity
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class Restaurant {
         @Id
-        String id,
-        String name,
-        double rating,
-        String working_time,
-        String phone_number,
-        String address,
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
+        Long id;
+        String name;
+        double rating;
+        String working_time;
+        String phone_number;
+        String address;
         @Version
-        Integer version
-) {
+        Integer version;
 }
