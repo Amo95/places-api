@@ -1,0 +1,3159 @@
+[
+  {
+    "place_id": "ChIJo2UCnL6a3w8RMWWSnmAGtao",
+    "name": "Capitol Cafe & Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 3162,
+    "competitors": [
+      {
+        "name": "Bosphorus Restaurant & Cafe",
+        "link": "https://www.google.com/maps/search/Bosphorus+Restaurant+%26+Cafe/@5.569910699999999,-0.1689992?authuser=0&hl=en&entry=ttu",
+        "reviews": 3501,
+        "rating": 4.3,
+        "main_category": "Turkish"
+      },
+      {
+        "name": "The Buka Restaurant, Osu, Accra",
+        "link": "https://www.google.com/maps/search/The+Buka+Restaurant%2C+Osu%2C+Accra/@5.5649961999999995,-0.18271389999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 3449,
+        "rating": 4.2,
+        "main_category": "West African"
+      },
+      {
+        "name": "Brasa Restaurant",
+        "link": "https://www.google.com/maps/search/Brasa+Restaurant/@5.565982,-0.1703644?authuser=0&hl=en&entry=ttu",
+        "reviews": 488,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Oriental Patisserie & Restaurant - Labone",
+        "link": "https://www.google.com/maps/search/Oriental+Patisserie+%26+Restaurant+-+Labone/@5.5732102999999995,-0.16589289999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 340,
+        "rating": 4.1,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "The FiVe Lounge & Restaurant",
+        "link": "https://www.google.com/maps/search/The+FiVe+Lounge+%26+Restaurant/@5.574123000000001,-0.18678029999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 44,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "http://www.capitolgh.com/",
+    "owner": {
+      "id": "104154561881255548720",
+      "name": "Capitol Cafe & Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/104154561881255548720"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipN6D59MXlw_VIITBOO1cnUcxYOwCN7Ad2Ew6Rw=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.4,
+    "workday_timing": "9 am-11 pm",
+    "closed_on": "Open All Days",
+    "phone": "050 711 1117",
+    "address": "Capitol Cafe & Restaurant, 5 Fifth Link Rd, Accra",
+    "review_keywords": [
+      {
+        "keyword": "environment",
+        "count": 118
+      },
+      {
+        "keyword": "alcohol",
+        "count": 48
+      },
+      {
+        "keyword": "meeting",
+        "count": 17
+      },
+      {
+        "keyword": "turkish food",
+        "count": 16
+      },
+      {
+        "keyword": "mocktails",
+        "count": 16
+      },
+      {
+        "keyword": "flies",
+        "count": 13
+      },
+      {
+        "keyword": "shisha",
+        "count": 11
+      },
+      {
+        "keyword": "jollof rice",
+        "count": 10
+      },
+      {
+        "keyword": "smoothie",
+        "count": 10
+      },
+      {
+        "keyword": "spring rolls",
+        "count": 6
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Capitol+Cafe+%26+Restaurant/data=!4m7!3m6!1s0xfdf9abe9c0265a3:0xaab506609e926531!8m2!3d5.577758!4d-0.1650105!16s%2Fg%2F11fy_qdg4z!19sChIJo2UCnL6a3w8RMWWSnmAGtao?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJ472WH6yc3w8Rl6Qx8ahIoEc",
+    "name": "Mango's Restaurant Bar and Grill",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 1979,
+    "competitors": [
+      {
+        "name": "Mangoase Chop Bar",
+        "link": "https://www.google.com/maps/search/Mangoase+Chop+Bar/@5.5717212,-0.2026704?authuser=0&hl=en&entry=ttu",
+        "reviews": 289,
+        "rating": 4.2,
+        "main_category": "Chop bar"
+      },
+      {
+        "name": "Soul Restaurant and Bar East Legon",
+        "link": "https://www.google.com/maps/search/Soul+Restaurant+and+Bar+East+Legon/@5.6446581,-0.1574962?authuser=0&hl=en&entry=ttu",
+        "reviews": 260,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Oceano Restaurant",
+        "link": "https://www.google.com/maps/search/Oceano+Restaurant/@5.6472315,-0.1530125?authuser=0&hl=en&entry=ttu",
+        "reviews": 175,
+        "rating": 4.1,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Tasty's Bar & Restaurant",
+        "link": "https://www.google.com/maps/search/Tasty%27s+Bar+%26+Restaurant/@5.654098299999999,-0.1513309?authuser=0&hl=en&entry=ttu",
+        "reviews": 156,
+        "rating": 4.3,
+        "main_category": "African"
+      }
+    ],
+    "website": "https://mangos-restaurant-bar-and-grill.business.site/",
+    "owner": {
+      "id": "102136827596944187204",
+      "name": "Mango's Restaurant Bar and Grill (Owner)",
+      "link": "https://www.google.com/maps/contrib/102136827596944187204"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipP8NwAU0U6gcfw22-hNaq1fKoWEPFPZKyY8LKLt=w426-h240-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant",
+      "Delivery service"
+    ],
+    "rating": 4.2,
+    "workday_timing": "10 am-10 pm",
+    "closed_on": "Open All Days",
+    "phone": "055 500 8815",
+    "address": "Mango's Restaurant Bar and Grill, Nii Sai Rd, Accra",
+    "review_keywords": [
+      {
+        "keyword": "fufu",
+        "count": 62
+      },
+      {
+        "keyword": "customer service",
+        "count": 62
+      },
+      {
+        "keyword": "local food",
+        "count": 43
+      },
+      {
+        "keyword": "local dishes",
+        "count": 23
+      },
+      {
+        "keyword": "ghanaian",
+        "count": 19
+      },
+      {
+        "keyword": "jollof",
+        "count": 15
+      },
+      {
+        "keyword": "banku",
+        "count": 13
+      },
+      {
+        "keyword": "light soup",
+        "count": 12
+      },
+      {
+        "keyword": "goat meat",
+        "count": 9
+      },
+      {
+        "keyword": "tilapia",
+        "count": 8
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Mango%27s+Restaurant+Bar+and+Grill/data=!4m7!3m6!1s0xfdf9cac1f96bde3:0x47a048a8f131a497!8m2!3d5.652352!4d-0.1541559!16s%2Fg%2F11c1n5lbfb!19sChIJ472WH6yc3w8Rl6Qx8ahIoEc?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJY4q-Vk2b3w8RD-tK0lCfqUM",
+    "name": "Jamrock Restaurant & Grill",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 1416,
+    "competitors": [
+      {
+        "name": "Afrikiko",
+        "link": "https://www.google.com/maps/search/Afrikiko/@5.5757357999999995,-0.1889171?authuser=0&hl=en&entry=ttu",
+        "reviews": 2848,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Azmera Restaurant",
+        "link": "https://www.google.com/maps/search/Azmera+Restaurant/@5.6057748,-0.18831789999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 1793,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "805 Restaurant",
+        "link": "https://www.google.com/maps/search/805+Restaurant/@5.615034199999999,-0.18218499999999999?authuser=0&hl=en&entry=ttu",
+        "reviews": 1205,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Mama Cuisine",
+        "link": "https://www.google.com/maps/search/Mama+Cuisine/@5.597436999999999,-0.1816778?authuser=0&hl=en&entry=ttu",
+        "reviews": 679,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "JERK GRILLS",
+        "link": "https://www.google.com/maps/search/JERK+GRILLS/@5.5756384,-0.21335669999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 1,
+        "rating": 5,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "http://www.jamrock.com.gh/",
+    "owner": {
+      "id": "100916274409365750361",
+      "name": "Jamrock Restaurant & Grill (Owner)",
+      "link": "https://www.google.com/maps/contrib/100916274409365750361"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipNSQM2Z3Jr4UWV7nIlIr3LfdVK6QnzO5-h1If3i=w408-h544-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.3,
+    "workday_timing": "10 am-10 pm",
+    "closed_on": "Open All Days",
+    "phone": "054 434 9770",
+    "address": "Jamrock Restaurant & Grill, East Airport, Dede Plaza, Oak Plaza Hotel",
+    "review_keywords": [
+      {
+        "keyword": "reggae",
+        "count": 68
+      },
+      {
+        "keyword": "jamaican",
+        "count": 62
+      },
+      {
+        "keyword": "band",
+        "count": 57
+      },
+      {
+        "keyword": "jerk",
+        "count": 24
+      },
+      {
+        "keyword": "oxtail",
+        "count": 12
+      },
+      {
+        "keyword": "ambience",
+        "count": 11
+      },
+      {
+        "keyword": "relaxation",
+        "count": 11
+      },
+      {
+        "keyword": "curry goat",
+        "count": 11
+      },
+      {
+        "keyword": "rice and peas",
+        "count": 10
+      },
+      {
+        "keyword": "banku",
+        "count": 9
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Jamrock+Restaurant+%26+Grill/data=!4m7!3m6!1s0xfdf9b4d56be8a63:0x43a99f50d24aeb0f!8m2!3d5.6261258!4d-0.1553377!16s%2Fg%2F11cmcntfyj!19sChIJY4q-Vk2b3w8RD-tK0lCfqUM?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJ_XWJSw-b3w8RkPulJJd8fH8",
+    "name": "805 Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 1205,
+    "competitors": [
+      {
+        "name": "Azmera Restaurant",
+        "link": "https://www.google.com/maps/search/Azmera+Restaurant/@5.6057748,-0.18831789999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 1793,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Mama Cuisine",
+        "link": "https://www.google.com/maps/search/Mama+Cuisine/@5.597436999999999,-0.1816778?authuser=0&hl=en&entry=ttu",
+        "reviews": 679,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "La Chaumiere",
+        "link": "https://www.google.com/maps/search/La+Chaumiere/@5.6165595,-0.17633859999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 660,
+        "rating": 4.4,
+        "main_category": "French"
+      },
+      {
+        "name": "Red Red Restaurant",
+        "link": "https://www.google.com/maps/search/Red+Red+Restaurant/@5.6051712,-0.1765641?authuser=0&hl=en&entry=ttu",
+        "reviews": 120,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Zest Restaurant",
+        "link": "https://www.google.com/maps/search/Zest+Restaurant/@5.590986,-0.1806719?authuser=0&hl=en&entry=ttu",
+        "reviews": 38,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "http://805restaurants.com/",
+    "owner": {
+      "id": "102824978291586197731",
+      "name": "805 Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/102824978291586197731"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipPoUBiwLcMZI182MoesgzZZZRUXoZy1wyDP7a77=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.2,
+    "workday_timing": "9 am-10:15 pm",
+    "closed_on": "Open All Days",
+    "phone": "020 080 5805",
+    "address": "805 Restaurant, Third Close, Off Volta St, Accra",
+    "review_keywords": [
+      {
+        "keyword": "nigerian dishes",
+        "count": 25
+      },
+      {
+        "keyword": "african dishes",
+        "count": 16
+      },
+      {
+        "keyword": "seafood",
+        "count": 11
+      },
+      {
+        "keyword": "jollof rice",
+        "count": 11
+      },
+      {
+        "keyword": "grilled",
+        "count": 11
+      },
+      {
+        "keyword": "yam",
+        "count": 9
+      },
+      {
+        "keyword": "buffet",
+        "count": 8
+      },
+      {
+        "keyword": "airport",
+        "count": 6
+      },
+      {
+        "keyword": "okro",
+        "count": 5
+      },
+      {
+        "keyword": "egusi",
+        "count": 5
+      }
+    ],
+    "link": "https://www.google.com/maps/place/805+Restaurant/data=!4m7!3m6!1s0xfdf9b0f4b8975fd:0x7f7c7c9724a5fb90!8m2!3d5.6150342!4d-0.182185!16s%2Fg%2F11b6yqlmbw!19sChIJ_XWJSw-b3w8RkPulJJd8fH8?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJiXmVS1qb3w8RpAM6yPs6zFU",
+    "name": "DNR Turkish Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 953,
+    "competitors": [
+      {
+        "name": "Bosphorus Restaurant & Cafe",
+        "link": "https://www.google.com/maps/search/Bosphorus+Restaurant+%26+Cafe/@5.569910699999999,-0.1689992?authuser=0&hl=en&entry=ttu",
+        "reviews": 3501,
+        "rating": 4.3,
+        "main_category": "Turkish"
+      },
+      {
+        "name": "Ando's Restaurant & Grill East Legon",
+        "link": "https://www.google.com/maps/search/Ando%27s+Restaurant+%26+Grill+East+Legon/@5.6463782,-0.1549862?authuser=0&hl=en&entry=ttu",
+        "reviews": 154,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Istanbul Grill",
+        "link": "https://www.google.com/maps/search/Istanbul+Grill/@5.6402171,-0.1510966?authuser=0&hl=en&entry=ttu",
+        "reviews": 8,
+        "rating": 4.9,
+        "main_category": "Turkish"
+      },
+      {
+        "name": "Oregano's Restaurant",
+        "link": "https://www.google.com/maps/search/Oregano%E2%80%99s+Restaurant/@5.627203199999999,-0.1697637?authuser=0&hl=en&entry=ttu",
+        "reviews": 5,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "http://www.dnrrestaurant.com/",
+    "owner": {
+      "id": "101736793455949812952",
+      "name": "DNR Turkish Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/101736793455949812952"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipM43mF5sA9HpWNEMbbJ4fuwpBqES-OaN0f5jkme=w426-h240-k-no",
+    "main_category": "Turkish restaurant",
+    "categories": [
+      "Turkish restaurant"
+    ],
+    "rating": 4.4,
+    "workday_timing": "10 am-10 pm",
+    "closed_on": "Open All Days",
+    "phone": "030 254 4244",
+    "address": "DNR Turkish Restaurant, 6 Lagos Ave, Accra",
+    "review_keywords": [
+      {
+        "keyword": "customer service",
+        "count": 39
+      },
+      {
+        "keyword": "family",
+        "count": 26
+      },
+      {
+        "keyword": "halal",
+        "count": 12
+      },
+      {
+        "keyword": "lunch",
+        "count": 9
+      },
+      {
+        "keyword": "playground",
+        "count": 8
+      },
+      {
+        "keyword": "smoking",
+        "count": 8
+      },
+      {
+        "keyword": "AC",
+        "count": 7
+      },
+      {
+        "keyword": "parking",
+        "count": 7
+      },
+      {
+        "keyword": "turkish tea",
+        "count": 7
+      },
+      {
+        "keyword": "shisha",
+        "count": 6
+      }
+    ],
+    "link": "https://www.google.com/maps/place/DNR+Turkish+Restaurant/data=!4m7!3m6!1s0xfdf9b5a4b957989:0x55cc3afbc83a03a4!8m2!3d5.63373!4d-0.1722383!16s%2Fg%2F11h102mkg!19sChIJiXmVS1qb3w8RpAM6yPs6zFU?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJb38rWhid3w8RIYxv9m71iNY",
+    "name": "JUST FREDDIES",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 722,
+    "competitors": [
+      {
+        "name": "TF's Eatery",
+        "link": "https://www.google.com/maps/search/TF%27s+Eatery/@5.704034699999999,-0.15118289999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 425,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Fatty Grill Local",
+        "link": "https://www.google.com/maps/search/Fatty+Grill+Local/@5.7087129,-0.1652342?authuser=0&hl=en&entry=ttu",
+        "reviews": 228,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Queen's Tavern Bar & Restaurant",
+        "link": "https://www.google.com/maps/search/Queen%27s+Tavern+Bar+%26+Restaurant/@5.7087343,-0.1537288?authuser=0&hl=en&entry=ttu",
+        "reviews": 186,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Tasty Chow Resturant at Gullivers",
+        "link": "https://www.google.com/maps/search/Tasty+Chow+Resturant+at+Gullivers/@5.7060812,-0.1605363?authuser=0&hl=en&entry=ttu",
+        "reviews": 159,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Just Jollof Adenta",
+        "link": "https://www.google.com/maps/search/Just+Jollof+Adenta/@5.7133050999999995,-0.1512286?authuser=0&hl=en&entry=ttu",
+        "reviews": 133,
+        "rating": 4,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "https://www.justfreddies.com/",
+    "owner": {
+      "id": null,
+      "name": "JUST FREDDIES (Owner)",
+      "link": null
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipPuhni4dXMCen-2fA7s9j2d6rGptuSS85U8wJ0=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4,
+    "workday_timing": "7 am-11 pm",
+    "closed_on": "Open All Days",
+    "phone": "030 252 2766",
+    "address": "JUST FREDDIES, SF 4/19 Nii Okpoti Adjei Street Adenta - Frafraha, Adenta Municipality",
+    "review_keywords": [
+      {
+        "keyword": "customer service",
+        "count": 34
+      },
+      {
+        "keyword": "pizza",
+        "count": 17
+      },
+      {
+        "keyword": "prices",
+        "count": 17
+      },
+      {
+        "keyword": "jollof",
+        "count": 14
+      },
+      {
+        "keyword": "delivery",
+        "count": 14
+      },
+      {
+        "keyword": "environment",
+        "count": 11
+      },
+      {
+        "keyword": "fried rice",
+        "count": 9
+      },
+      {
+        "keyword": "chicken",
+        "count": 7
+      },
+      {
+        "keyword": "grilled",
+        "count": 6
+      },
+      {
+        "keyword": "fries",
+        "count": 5
+      }
+    ],
+    "link": "https://www.google.com/maps/place/JUST+FREDDIES/data=!4m7!3m6!1s0xfdf9d185a2b7f6f:0xd688f56ef66f8c21!8m2!3d5.7157088!4d-0.1615942!16s%2Fg%2F11d_365vw3!19sChIJb38rWhid3w8RIYxv9m71iNY?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJXRum6Pua3w8RC4gWXa7E3co",
+    "name": "Mama Cuisine",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 680,
+    "competitors": [
+      {
+        "name": "Mamma Mia Pizzeria - Osu",
+        "link": "https://www.google.com/maps/search/Mamma+Mia+Pizzeria+-+Osu/@5.5629987,-0.18318620000000002?authuser=0&hl=en&entry=ttu",
+        "reviews": 1342,
+        "rating": 4.2,
+        "main_category": "Pizza"
+      },
+      {
+        "name": "805 Restaurant",
+        "link": "https://www.google.com/maps/search/805+Restaurant/@5.615034199999999,-0.18218499999999999?authuser=0&hl=en&entry=ttu",
+        "reviews": 1205,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Santoku",
+        "link": "https://www.google.com/maps/search/Santoku/@5.6202628,-0.1781055?authuser=0&hl=en&entry=ttu",
+        "reviews": 1117,
+        "rating": 4.5,
+        "main_category": "Japanese"
+      },
+      {
+        "name": "La Chaumiere",
+        "link": "https://www.google.com/maps/search/La+Chaumiere/@5.6165595,-0.17633859999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 660,
+        "rating": 4.4,
+        "main_category": "French"
+      },
+      {
+        "name": "Ayewam Restaurant",
+        "link": "https://www.google.com/maps/search/Ayewam+Restaurant/@5.6037379,-0.18695789999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 21,
+        "rating": 4.6,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "https://instagram.com/mamacuisineaccra%3Figshid%3DYmMyMTA2M2Y%3D",
+    "owner": {
+      "id": "108082391329989170404",
+      "name": "Mama Cuisine (Owner)",
+      "link": "https://www.google.com/maps/contrib/108082391329989170404"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipMghIldDI6BdNEtI0i0xzswtVPzrlaOVixuTdpg=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.3,
+    "workday_timing": "8 am-11 pm",
+    "closed_on": "Open All Days",
+    "phone": "059 841 4036",
+    "address": "Mama Cuisine, Casely Hayford Rd, Accra",
+    "review_keywords": [
+      {
+        "keyword": "music",
+        "count": 23
+      },
+      {
+        "keyword": "environment",
+        "count": 14
+      },
+      {
+        "keyword": "night",
+        "count": 11
+      },
+      {
+        "keyword": "experience",
+        "count": 11
+      },
+      {
+        "keyword": "friday",
+        "count": 9
+      },
+      {
+        "keyword": "customer service",
+        "count": 8
+      },
+      {
+        "keyword": "acheke",
+        "count": 6
+      },
+      {
+        "keyword": "cocktails",
+        "count": 6
+      },
+      {
+        "keyword": "tilapia",
+        "count": 5
+      },
+      {
+        "keyword": "grilled",
+        "count": 5
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Mama+Cuisine/data=!4m7!3m6!1s0xfdf9afbe8a61b5d:0xcaddc4ae5d16880b!8m2!3d5.597437!4d-0.1816778!16s%2Fg%2F11c76m83gv!19sChIJXRum6Pua3w8RC4gWXa7E3co?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJdeTrQIea3w8R4hM5SMewvfc",
+    "name": "Country Kitchen",
+    "description": "Homey chain eatery serving breakfast all day & other American comfort fare in a casual space.",
+    "is_spending_on_ads": false,
+    "reviews": 611,
+    "competitors": [
+      {
+        "name": "Bistro 22 - Kitchen + Bar",
+        "link": "https://www.google.com/maps/search/Bistro+22+-+Kitchen+%2B+Bar/@5.5715661,-0.1691016?authuser=0&hl=en&entry=ttu",
+        "reviews": 1719,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "The Grillroom",
+        "link": "https://www.google.com/maps/search/The+Grillroom/@5.576066,-0.1850054?authuser=0&hl=en&entry=ttu",
+        "reviews": 179,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "The Breakfast Bar",
+        "link": "https://www.google.com/maps/search/The+Breakfast+Bar/@5.611491,-0.2036546?authuser=0&hl=en&entry=ttu",
+        "reviews": 158,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Nigerian Kitchen, Accra",
+        "link": "https://www.google.com/maps/search/Nigerian+Kitchen%2C+Accra/@5.6473254,-0.1187414?authuser=0&hl=en&entry=ttu",
+        "reviews": 80,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Favourite Restaurant",
+        "link": "https://www.google.com/maps/search/Favourite+Restaurant/@5.5663838,-0.1843254?authuser=0&hl=en&entry=ttu",
+        "reviews": 21,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "https://website--815653131851157725310-restaurant.business.site/%3Futm_source%3Dgmb%26utm_medium%3Dreferral",
+    "owner": {
+      "id": "103048311666334523352",
+      "name": "Country Kitchen (Owner)",
+      "link": "https://www.google.com/maps/contrib/103048311666334523352"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipO-nxUogoZzjjW5GiwShR_VnZ3Bdb-XOguMTQbx=w427-h240-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4,
+    "workday_timing": "8 am-10 pm",
+    "closed_on": "Open All Days",
+    "phone": "024 419 5764",
+    "address": "Country Kitchen, Accra",
+    "review_keywords": [
+      {
+        "keyword": "local",
+        "count": 25
+      },
+      {
+        "keyword": "ghanaian",
+        "count": 22
+      },
+      {
+        "keyword": "fufu",
+        "count": 13
+      },
+      {
+        "keyword": "customer service",
+        "count": 12
+      },
+      {
+        "keyword": "lunch",
+        "count": 11
+      },
+      {
+        "keyword": "environment",
+        "count": 10
+      },
+      {
+        "keyword": "atmosphere",
+        "count": 7
+      },
+      {
+        "keyword": "fish",
+        "count": 6
+      },
+      {
+        "keyword": "soup",
+        "count": 6
+      },
+      {
+        "keyword": "banku",
+        "count": 5
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Country+Kitchen/data=!4m7!3m6!1s0xfdf9a8740ebe475:0xf7bdb0c7483913e2!8m2!3d5.568123!4d-0.1862311!16s%2Fg%2F1tjdn2zs!19sChIJdeTrQIea3w8R4hM5SMewvfc?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJI0q0D5mQ3w8RHOTCmuTYJUg",
+    "name": "Sankofa Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 363,
+    "competitors": [
+      {
+        "name": "Paloma Restaurant",
+        "link": "https://www.google.com/maps/search/Paloma+Restaurant/@5.5725207,-0.2059349?authuser=0&hl=en&entry=ttu",
+        "reviews": 658,
+        "rating": 4.1,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "KANZO Restaurant",
+        "link": "https://www.google.com/maps/search/KANZO+Restaurant/@5.598476799999999,-0.23205399999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 346,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Papillon Restaurant",
+        "link": "https://www.google.com/maps/search/Papillon+Restaurant/@5.5545784,-0.19811499999999999?authuser=0&hl=en&entry=ttu",
+        "reviews": 49,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Akwaaba Restaurant",
+        "link": "https://www.google.com/maps/search/Akwaaba+Restaurant/@5.5639807,-0.1379924?authuser=0&hl=en&entry=ttu",
+        "reviews": 4,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Sankofa Kitchen Annex",
+        "link": "https://www.google.com/maps/search/Sankofa+Kitchen+Annex/@5.563891099999999,-0.1761499?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "https://movenpick.accor.com/en/africa/ghana/accra/moevenpick-ambassador-hotel-accra/restaurants/sankofa-restaurant.html%3Futm_source%3Dgoogle%2BMaps%26utm_medium%3Dseo%2Bmaps%26utm_content%3Drestaurant-B4P0-sankofa%26utm_campaign%3Dseo%2Bmaps",
+    "owner": {
+      "id": "108954659181123955287",
+      "name": "Sankofa Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/108954659181123955287"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipMSvdeBQeJ2QYrK8Nk2cf7Zm07slhlV88_9ynQ-=w427-h240-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant",
+      "Seafood restaurant"
+    ],
+    "rating": 4.4,
+    "workday_timing": "6:30 am-10:30 pm",
+    "closed_on": "Open All Days",
+    "phone": "030 261 1000",
+    "address": "Sankofa Restaurant, Ridge, Independence Ave, Accra",
+    "review_keywords": [
+      {
+        "keyword": "buffet",
+        "count": 20
+      },
+      {
+        "keyword": "customer service",
+        "count": 7
+      },
+      {
+        "keyword": "lunch",
+        "count": 6
+      },
+      {
+        "keyword": "dessert",
+        "count": 5
+      },
+      {
+        "keyword": "environment",
+        "count": 3
+      },
+      {
+        "keyword": "hotel",
+        "count": 3
+      },
+      {
+        "keyword": "night",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Sankofa+Restaurant/data=!4m7!3m6!1s0xfdf90990fb44a23:0x4825d8e49ac2e41c!8m2!3d5.5544542!4d-0.2026381!16s%2Fg%2F11fzf2gcjz!19sChIJI0q0D5mQ3w8RHOTCmuTYJUg?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJz8MGnuqZ3w8RRoEc-hSCpLI",
+    "name": "KANZO Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 346,
+    "competitors": [
+      {
+        "name": "Kozo Restaurant",
+        "link": "https://www.google.com/maps/search/K%C5%8Dzo+Restaurant/@5.615925,-0.1861668?authuser=0&hl=en&entry=ttu",
+        "reviews": 711,
+        "rating": 4.4,
+        "main_category": "Japanese"
+      },
+      {
+        "name": "Noble House - Tesano",
+        "link": "https://www.google.com/maps/search/Noble+House+-+Tesano/@5.599272900000001,-0.22662839999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 549,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Caza Maza Restaurant",
+        "link": "https://www.google.com/maps/search/Caza+Maza+Restaurant/@5.5986939,-0.229544?authuser=0&hl=en&entry=ttu",
+        "reviews": 491,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Zoozoo Restaurant - Tesano",
+        "link": "https://www.google.com/maps/search/Zoozoo+Restaurant+-+Tesano/@5.5982389,-0.23254999999999995?authuser=0&hl=en&entry=ttu",
+        "reviews": 409,
+        "rating": 3.7,
+        "main_category": "Stores and shopping"
+      },
+      {
+        "name": "Sankofa Restaurant",
+        "link": "https://www.google.com/maps/search/Sankofa+Restaurant/@5.5544542,-0.20263810000000002?authuser=0&hl=en&entry=ttu",
+        "reviews": 363,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "http://kanzogh.com/",
+    "owner": {
+      "id": "104949233817065295808",
+      "name": "KANZO Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/104949233817065295808"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipPkYkZfMpCOcxwCBcjSuB_BAECNU_mDkrNERsP5=w408-h544-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant",
+      "Food court"
+    ],
+    "rating": 4.4,
+    "workday_timing": "9 am-8 pm",
+    "closed_on": [
+      "Sunday"
+    ],
+    "phone": "055 977 9677",
+    "address": "KANZO Restaurant, Abeka Rd, Accra",
+    "review_keywords": [
+      {
+        "keyword": "customer service",
+        "count": 22
+      },
+      {
+        "keyword": "jollof",
+        "count": 16
+      },
+      {
+        "keyword": "delivery",
+        "count": 8
+      },
+      {
+        "keyword": "experience",
+        "count": 7
+      },
+      {
+        "keyword": "environment",
+        "count": 6
+      },
+      {
+        "keyword": "waakye",
+        "count": 4
+      },
+      {
+        "keyword": "juices",
+        "count": 4
+      },
+      {
+        "keyword": "atmosphere",
+        "count": 3
+      },
+      {
+        "keyword": "call",
+        "count": 3
+      },
+      {
+        "keyword": "wifi",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/KANZO+Restaurant/data=!4m7!3m6!1s0xfdf99ea9e06c3cf:0xb2a48214fa1c8146!8m2!3d5.5984768!4d-0.232054!16s%2Fg%2F11h37rylw7!19sChIJz8MGnuqZ3w8RRoEc-hSCpLI?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJ6cEn8TWd3w8RG4kR-qm-UoQ",
+    "name": "Queen's Tavern Bar & Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 186,
+    "competitors": [
+      {
+        "name": "Fellows Bar And Restaurant",
+        "link": "https://www.google.com/maps/search/Fellows+Bar+And+Restaurant/@5.7146868,-0.1589102?authuser=0&hl=en&entry=ttu",
+        "reviews": 248,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Just Jollof Adenta",
+        "link": "https://www.google.com/maps/search/Just+Jollof+Adenta/@5.7133050999999995,-0.1512286?authuser=0&hl=en&entry=ttu",
+        "reviews": 133,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Eleven15 Restaurant",
+        "link": "https://www.google.com/maps/search/Eleven15+Restaurant/@5.7017599,-0.1372111?authuser=0&hl=en&entry=ttu",
+        "reviews": 68,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Twins Pub",
+        "link": "https://www.google.com/maps/search/Twins+Pub/@5.7180623,-0.16786060000000003?authuser=0&hl=en&entry=ttu",
+        "reviews": 18,
+        "rating": 3.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Anoyeb Pub & Restaurant",
+        "link": "https://www.google.com/maps/search/Anoyeb+Pub+%26+Restaurant/@5.712871499999999,-0.1511267?authuser=0&hl=en&entry=ttu",
+        "reviews": 5,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "https://queenstavernghana.com/",
+    "owner": {
+      "id": "117924651488810902835",
+      "name": "Queen's Tavern Bar & Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/117924651488810902835"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipPC9uMcr1A4iIutynnbH9QuA5ga04WB3Yr1ofou=w426-h240-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4,
+    "workday_timing": "10 am-9 pm",
+    "closed_on": [
+      "Tuesday"
+    ],
+    "phone": "030 255 1556",
+    "address": "Queen's Tavern Bar & Restaurant, 11 Macaroni St, Adenta Municipality",
+    "review_keywords": [
+      {
+        "keyword": "environment",
+        "count": 12
+      },
+      {
+        "keyword": "tilapia",
+        "count": 7
+      },
+      {
+        "keyword": "drinks",
+        "count": 5
+      },
+      {
+        "keyword": "customer service",
+        "count": 4
+      },
+      {
+        "keyword": "banku",
+        "count": 4
+      },
+      {
+        "keyword": "atmosphere",
+        "count": 3
+      },
+      {
+        "keyword": "grilled",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Queen%27s+Tavern+Bar+%26+Restaurant/data=!4m7!3m6!1s0xfdf9d35f127c1e9:0x8452bea9fa11891b!8m2!3d5.7087343!4d-0.1537288!16s%2Fg%2F11b5qt1blk!19sChIJ6cEn8TWd3w8RG4kR-qm-UoQ?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJz9GSooma3w8RoBO766W5BH0",
+    "name": "The Grillroom",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 179,
+    "competitors": [
+      {
+        "name": "Country Kitchen",
+        "link": "https://www.google.com/maps/search/Country+Kitchen/@5.568123,-0.18623109999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 611,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Le Magellan Restaurant",
+        "link": "https://www.google.com/maps/search/Le+Magellan+Restaurant/@5.56264,-0.17422849999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 531,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "The Neem Grill",
+        "link": "https://www.google.com/maps/search/The+Neem+Grill/@5.6207161,-0.1553601?authuser=0&hl=en&entry=ttu",
+        "reviews": 408,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Indulge Accra",
+        "link": "https://www.google.com/maps/search/Indulge+Accra/@5.576361299999999,-0.1726146?authuser=0&hl=en&entry=ttu",
+        "reviews": 297,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "The Palm Restaurant Gh",
+        "link": "https://www.google.com/maps/search/The+Palm+Restaurant+Gh/@5.553588899999999,-0.18082769999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 5,
+        "rating": 4.6,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "http://fiestaresidences.com/dining/",
+    "owner": {
+      "id": "118291040426726607113",
+      "name": "The Grillroom (Owner)",
+      "link": "https://www.google.com/maps/contrib/118291040426726607113"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipMgoYe86QxOAH6Bo3dQ7_tAyu5k9fEjCr96WY9B=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.5,
+    "workday_timing": "6 am-10 pm",
+    "closed_on": "Open All Days",
+    "phone": "030 274 4000",
+    "address": "The Grillroom, Accra",
+    "review_keywords": [
+      {
+        "keyword": "experience",
+        "count": 10
+      },
+      {
+        "keyword": "wine",
+        "count": 7
+      },
+      {
+        "keyword": "price",
+        "count": 5
+      },
+      {
+        "keyword": "pasta",
+        "count": 4
+      },
+      {
+        "keyword": "steak",
+        "count": 4
+      },
+      {
+        "keyword": "dinner",
+        "count": 3
+      },
+      {
+        "keyword": "selection",
+        "count": 3
+      },
+      {
+        "keyword": "atmosphere",
+        "count": 3
+      },
+      {
+        "keyword": "night",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/The+Grillroom/data=!4m7!3m6!1s0xfdf9a89a292d1cf:0x7d04b9a5ebbb13a0!8m2!3d5.576066!4d-0.1850054!16s%2Fg%2F11dxdlz5nv!19sChIJz9GSooma3w8RoBO766W5BH0?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJ8VDCnXCD3w8RW4Cgb04oAlc",
+    "name": "La Grilla",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 160,
+    "competitors": [
+      {
+        "name": "Lalas Kitchen",
+        "link": "https://www.google.com/maps/search/Lalas+Kitchen/@5.668135899999999,-0.044705999999999996?authuser=0&hl=en&entry=ttu",
+        "reviews": 374,
+        "rating": 4.1,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "HOT GRILL",
+        "link": "https://www.google.com/maps/search/HOT+GRILL/@5.685298599999999,-0.1987825?authuser=0&hl=en&entry=ttu",
+        "reviews": 168,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Food Express",
+        "link": "https://www.google.com/maps/search/Food+Express/@5.6920338,-0.1085801?authuser=0&hl=en&entry=ttu",
+        "reviews": 72,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "JustOrder Cuisine",
+        "link": "https://www.google.com/maps/search/JustOrder+Cuisine/@5.6957279,-0.1031816?authuser=0&hl=en&entry=ttu",
+        "reviews": 59,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "AG Food & Grills",
+        "link": "https://www.google.com/maps/search/AG+Food+%26+Grills/@5.690783,-0.19369699999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "https://casadelagrilla.business.site/",
+    "owner": {
+      "id": "116140285932990184080",
+      "name": "La Grilla (Owner)",
+      "link": "https://www.google.com/maps/contrib/116140285932990184080"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipOCQbIAqavk5LPbyi3YHi6wH5PPONXz9K-Y-TE9=w408-h510-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.2,
+    "workday_timing": "9:30 am-9:30 pm",
+    "closed_on": [
+      "Sunday"
+    ],
+    "phone": "054 590 3219",
+    "address": "La Grilla",
+    "review_keywords": [
+      {
+        "keyword": "customer service",
+        "count": 4
+      },
+      {
+        "keyword": "jollof",
+        "count": 3
+      },
+      {
+        "keyword": "chicken",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/La+Grilla/data=!4m7!3m6!1s0xfdf83709dc250f1:0x5702284e6fa0805b!8m2!3d5.6970176!4d-0.1106318!16s%2Fg%2F11hzn4kp3p!19sChIJ8VDCnXCD3w8RW4Cgb04oAlc?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJUyfYSpKZ3w8R7vWYwis3R6w",
+    "name": "Chop i chop Nigeria Restaurant in Accra",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 109,
+    "competitors": [
+      {
+        "name": "The Buka Restaurant, Osu, Accra",
+        "link": "https://www.google.com/maps/search/The+Buka+Restaurant%2C+Osu%2C+Accra/@5.5649961999999995,-0.18271389999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 3449,
+        "rating": 4.2,
+        "main_category": "West African"
+      },
+      {
+        "name": "Nigerian Kitchen, Accra",
+        "link": "https://www.google.com/maps/search/Nigerian+Kitchen%2C+Accra/@5.6473254,-0.1187414?authuser=0&hl=en&entry=ttu",
+        "reviews": 80,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Chop I Chop Nigeria Restaurant",
+        "link": "https://www.google.com/maps/search/Chop+I+Chop+Nigeria+Restaurant/@5.596114,-0.2333857?authuser=0&hl=en&entry=ttu",
+        "reviews": 32,
+        "rating": 3.9,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Mekus Kitchen (Nigerian Dishes)",
+        "link": "https://www.google.com/maps/search/Mekus+Kitchen+%28Nigerian+Dishes%29/@5.6060671,-0.21760939999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 20,
+        "rating": 4.4,
+        "main_category": "African"
+      }
+    ],
+    "website": "http://chopichoprestaurant.com/",
+    "owner": {
+      "id": "103344946390485556237",
+      "name": "Chop i chop Nigeria Restaurant in Accra (Owner)",
+      "link": "https://www.google.com/maps/contrib/103344946390485556237"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipPbDrcqFYfnQ8ADA7g7MWcmim2nCIs2md8HLlKG=w408-h392-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 3.7,
+    "workday_timing": "9 am-9 pm",
+    "closed_on": "Open All Days",
+    "phone": "026 176 5633",
+    "address": "Chop i chop Nigeria Restaurant in Accra, near Mike photos, Naa Atta St, Accra",
+    "review_keywords": [
+      {
+        "keyword": "nigerian",
+        "count": 5
+      },
+      {
+        "keyword": "soup",
+        "count": 4
+      },
+      {
+        "keyword": "egusi",
+        "count": 3
+      },
+      {
+        "keyword": "jollof",
+        "count": 3
+      },
+      {
+        "keyword": "delivery",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Chop+i+chop+Nigeria+Restaurant+in+Accra/data=!4m7!3m6!1s0xfdf99924ad82753:0xac47372bc298f5ee!8m2!3d5.5988623!4d-0.2336089!16s%2Fg%2F11v0psfp5c!19sChIJUyfYSpKZ3w8R7vWYwis3R6w?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJK2m-HVyb3w8RT4sjjYZZ_80",
+    "name": "Lobster & More Accra",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 101,
+    "competitors": [
+      {
+        "name": "BABEL RESTAURANT GHANA",
+        "link": "https://www.google.com/maps/search/BABEL+RESTAURANT+GHANA/@5.5684289,-0.1695679?authuser=0&hl=en&entry=ttu",
+        "reviews": 205,
+        "rating": 4.5,
+        "main_category": "Seafood"
+      },
+      {
+        "name": "Oceano Restaurant",
+        "link": "https://www.google.com/maps/search/Oceano+Restaurant/@5.6472315,-0.1530125?authuser=0&hl=en&entry=ttu",
+        "reviews": 175,
+        "rating": 4.1,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "SHANSEAFOOD Restaurant",
+        "link": "https://www.google.com/maps/search/SHANSEAFOOD+Restaurant/@5.6595794,-0.14218229999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 35,
+        "rating": 4.4,
+        "main_category": "Seafood"
+      },
+      {
+        "name": "AQUARIUM CATFISH & BAR",
+        "link": "https://www.google.com/maps/search/AQUARIUM+CATFISH+%26+BAR/@5.5616235,-0.1840716?authuser=0&hl=en&entry=ttu",
+        "reviews": 29,
+        "rating": 4.9,
+        "main_category": "Seafood"
+      },
+      {
+        "name": "Atlantic Lobsters Dolphin Ltd",
+        "link": "https://www.google.com/maps/search/Atlantic+Lobsters+Dolphin+Ltd/@5.559249299999999,-0.17930959999999999?authuser=0&hl=en&entry=ttu",
+        "reviews": 8,
+        "rating": 3.9,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "https://lobsterandmore.business.site/",
+    "owner": {
+      "id": "101207149415832006362",
+      "name": "Lobster & More Accra (Owner)",
+      "link": "https://www.google.com/maps/contrib/101207149415832006362"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipNhIxKU90i3ykZbUYc5kW6beFa5AsnX_EWVSTr4=w425-h240-k-no",
+    "main_category": "Seafood restaurant",
+    "categories": [
+      "Seafood restaurant",
+      "Caterer",
+      "Seasonal goods store"
+    ],
+    "rating": 4.8,
+    "workday_timing": "10 am-9 pm",
+    "closed_on": "Open All Days",
+    "phone": "054 630 0003",
+    "address": "Lobster & More Accra, Koriey Kofi Ave, Accra",
+    "review_keywords": [
+      {
+        "keyword": "customer service",
+        "count": 4
+      },
+      {
+        "keyword": "lobster rolls",
+        "count": 3
+      },
+      {
+        "keyword": "prawns",
+        "count": 3
+      },
+      {
+        "keyword": "grilled",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Lobster+%26+More+Accra/data=!4m7!3m6!1s0xfdf9b5c1dbe692b:0xcdff59868d238b4f!8m2!3d5.626919!4d-0.1429567!16s%2Fg%2F11hnwd30vy!19sChIJK2m-HVyb3w8RT4sjjYZZ_80?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJWxMtBU2d3w8ReLxqmVMr8Ho",
+    "name": "Club Smooth",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 96,
+    "competitors": [
+      {
+        "name": "Food rockers",
+        "link": "https://www.google.com/maps/search/Food+rockers/@5.667051,-0.1769574?authuser=0&hl=en&entry=ttu",
+        "reviews": 256,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "De Smoothie Bar",
+        "link": "https://www.google.com/maps/search/De+Smoothie+Bar/@5.6753507,-0.2390194?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "http://www.clubsmooth.net/",
+    "owner": {
+      "id": "108989400773024603317",
+      "name": "Club Smooth (Owner)",
+      "link": "https://www.google.com/maps/contrib/108989400773024603317"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipOUR5eiz2CtbbtOuk-0BgukfSfk0csRtfobvXcB=w408-h272-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant",
+      "Bar",
+      "Breakfast restaurant",
+      "Cocktail bar",
+      "Juice shop",
+      "Karaoke bar"
+    ],
+    "rating": 4.1,
+    "workday_timing": "9 am-12 am",
+    "closed_on": "Open All Days",
+    "phone": null,
+    "address": "MR9C+2JM Club Smooth, Kwabenya Bus Station, Haatso-Atomic Rd, Accra",
+    "review_keywords": [
+      {
+        "keyword": "atmosphere",
+        "count": 6
+      },
+      {
+        "keyword": "customer service",
+        "count": 6
+      },
+      {
+        "keyword": "karaoke",
+        "count": 3
+      },
+      {
+        "keyword": "cocktail",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Club+Smooth/data=!4m7!3m6!1s0xfdf9d4d052d135b:0x7af02b53996abc78!8m2!3d5.6676337!4d-0.1785802!16s%2Fg%2F11k58dr01w!19sChIJWxMtBU2d3w8ReLxqmVMr8Ho?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJrwlA1DGb3w8RdWAg39nVwDA",
+    "name": "White Restaurant & Garden",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 59,
+    "competitors": [],
+    "website": "https://whiterestaurantgh.com/",
+    "owner": {
+      "id": "111026680769993200527",
+      "name": "White Restaurant & Garden (Owner)",
+      "link": "https://www.google.com/maps/contrib/111026680769993200527"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipOt3Rbrd0hqZzk32h0fexFuv3_N0XLJwcS00-hD=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.3,
+    "workday_timing": "7 am-11 pm",
+    "closed_on": "Open All Days",
+    "phone": "050 982 3420",
+    "address": "2nd floor, White Restaurant & Garden, Marina mall, Accra",
+    "review_keywords": [
+      {
+        "keyword": "the environment",
+        "count": 3
+      },
+      {
+        "keyword": "water",
+        "count": 3
+      },
+      {
+        "keyword": "atmosphere",
+        "count": 3
+      },
+      {
+        "keyword": "experience",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/White+Restaurant+%26+Garden/data=!4m7!3m6!1s0xfdf9b31d44009af:0x30c0d5d9df206075!8m2!3d5.6028092!4d-0.1761068!16s%2Fg%2F11kqcs952w!19sChIJrwlA1DGb3w8RdWAg39nVwDA?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJ9VxxdW-R3w8Rc0NYGV-fUI4",
+    "name": "Papillon Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 49,
+    "competitors": [
+      {
+        "name": "Paloma Restaurant",
+        "link": "https://www.google.com/maps/search/Paloma+Restaurant/@5.5725207,-0.2059349?authuser=0&hl=en&entry=ttu",
+        "reviews": 658,
+        "rating": 4.1,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Le Magellan Restaurant",
+        "link": "https://www.google.com/maps/search/Le+Magellan+Restaurant/@5.56264,-0.17422849999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 531,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Sankofa Restaurant",
+        "link": "https://www.google.com/maps/search/Sankofa+Restaurant/@5.5544542,-0.20263810000000002?authuser=0&hl=en&entry=ttu",
+        "reviews": 363,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Papillon Restaurant And Catering Service",
+        "link": "https://www.google.com/maps/search/Papillon+Restaurant+And+Catering+Service/@5.5346132,-0.23314130000000002?authuser=0&hl=en&entry=ttu",
+        "reviews": 5,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Akwaaba Restaurant",
+        "link": "https://www.google.com/maps/search/Akwaaba+Restaurant/@5.5639807,-0.1379924?authuser=0&hl=en&entry=ttu",
+        "reviews": 4,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "https://www.kempinski.com/en/hotel-gold-coast-city/restaurants-bars/papillon-restaurant%3Futm_medium%3Dorganic%26utm_source%3Dgoogle%26utm_campaign%3DKIACC1%26utm_content%3Dgmb-restaurant%26source%3DS308962248",
+    "owner": {
+      "id": "113279608371389510239",
+      "name": "Papillon Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/113279608371389510239"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipMbxRXSk2ygo1zLog0ed80BkbUOiuTOlVuAlV1A=w408-h254-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.5,
+    "workday_timing": "6 am-10:30 pm",
+    "closed_on": "Open All Days",
+    "phone": "024 243 6000",
+    "address": "Papillon Restaurant, Ministries, PMB, 66 Gamel Abdul Nasser Ave, Accra",
+    "review_keywords": [
+      {
+        "keyword": "buffet",
+        "count": 5
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Papillon+Restaurant/data=!4m7!3m6!1s0xfdf916f75715cf5:0x8e509f5f19584373!8m2!3d5.5545784!4d-0.198115!16s%2Fg%2F11flpj78wn!19sChIJ9VxxdW-R3w8Rc0NYGV-fUI4?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJd7Pmirqb3w8RXARDxcQjWaI",
+    "name": "Addis Ababa Restaurant Ghana",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 13,
+    "competitors": [
+      {
+        "name": "The Buka Restaurant, Osu, Accra",
+        "link": "https://www.google.com/maps/search/The+Buka+Restaurant%2C+Osu%2C+Accra/@5.5649961999999995,-0.18271389999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 3449,
+        "rating": 4.2,
+        "main_category": "West African"
+      },
+      {
+        "name": "Chez Clarisse Mama Africa",
+        "link": "https://www.google.com/maps/search/Chez+Clarisse+Mama+Africa/@5.5641941,-0.1839006?authuser=0&hl=en&entry=ttu",
+        "reviews": 1113,
+        "rating": 4.1,
+        "main_category": "African"
+      },
+      {
+        "name": "Abyssinia Ethiopian Restaurant",
+        "link": "https://www.google.com/maps/search/Abyssinia+Ethiopian+Restaurant/@5.5744039,-0.1754511?authuser=0&hl=en&entry=ttu",
+        "reviews": 232,
+        "rating": 4.7,
+        "main_category": "Ethiopian"
+      },
+      {
+        "name": "Mama africa Nigerian Restaurant",
+        "link": "https://www.google.com/maps/search/Mama+africa+Nigerian+Restaurant/@5.551878299999999,-0.1807081?authuser=0&hl=en&entry=ttu",
+        "reviews": 57,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Ethiopian Restaurant",
+        "link": "https://www.google.com/maps/search/Ethiopian+Restaurant/@5.6354006,-0.1720021?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "https://addisababarestaurantghana.business.site/%3Futm_source%3Dgmb%26utm_medium%3Dreferral",
+    "owner": {
+      "id": "104336451122935156184",
+      "name": "Addis Ababa Restaurant Ghana (Owner)",
+      "link": "https://www.google.com/maps/contrib/104336451122935156184"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipOBdqMfXQiOceAdpbLC413Kg78iS2R4JfYb5hTl=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant",
+      "Ethiopian restaurant",
+      "Fast food restaurant",
+      "Meal delivery",
+      "Takeout restaurant",
+      "West African restaurant"
+    ],
+    "rating": 4.4,
+    "workday_timing": "10:30 am-5 am",
+    "closed_on": "Open All Days",
+    "phone": "030 290 8018",
+    "address": "Addis Ababa Restaurant Ghana, Justice Annie Jiagge St, Accra",
+    "review_keywords": [
+      {
+        "keyword": "customer service",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Addis+Ababa+Restaurant+Ghana/data=!4m7!3m6!1s0xfdf9bba8ae6b377:0xa25923c4c543045c!8m2!3d5.5636712!4d-0.184333!16s%2Fg%2F11p687pv_5!19sChIJd7Pmirqb3w8RXARDxcQjWaI?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJPapLszSd3w8RLIazOgrxZSM",
+    "name": "THE FLAVOUR POT",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 8,
+    "competitors": [
+      {
+        "name": "The Kitchen Pot",
+        "link": "https://www.google.com/maps/search/The+Kitchen+Pot/@5.6705533,-0.16312150000000003?authuser=0&hl=en&entry=ttu",
+        "reviews": 37,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Flava Bar",
+        "link": "https://www.google.com/maps/search/Flava+Bar/@5.6900182,-0.1330622?authuser=0&hl=en&entry=ttu",
+        "reviews": 31,
+        "rating": 4.6,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "WoodFireSmoke Grill Takeaway",
+        "link": "https://www.google.com/maps/search/WoodFireSmoke+Grill+Takeaway/@5.5586775,-0.18040689999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 9,
+        "rating": 4.2,
+        "main_category": "Fast Food"
+      },
+      {
+        "name": "Melting Pot",
+        "link": "https://www.google.com/maps/search/Melting+Pot/@5.662037499999999,-0.1603609?authuser=0&hl=en&entry=ttu",
+        "reviews": 2,
+        "rating": 5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "The Sage Pot",
+        "link": "https://www.google.com/maps/search/The+Sage+Pot/@5.665419399999999,-0.1515859?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "https://the-fire-side-barbecue-restaurant.business.site/%3Futm_source%3Dgmb%26utm_medium%3Dreferral",
+    "owner": {
+      "id": "115333297923438152936",
+      "name": "THE FLAVOUR POT (Owner)",
+      "link": "https://www.google.com/maps/contrib/115333297923438152936"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipPhxgQJYdTlIquAhgYRzzSReTlBp-zaOlpP7C5x=w426-h240-k-no",
+    "main_category": "Barbecue restaurant",
+    "categories": [
+      "Barbecue restaurant"
+    ],
+    "rating": 4.9,
+    "workday_timing": "10 am-10 pm",
+    "closed_on": [
+      "Sunday"
+    ],
+    "phone": "024 034 1678",
+    "address": "THE FLAVOUR POT, THE FIRE SIDE Accra, Madina",
+    "review_keywords": [],
+    "link": "https://www.google.com/maps/place/THE+FLAVOUR+POT/data=!4m7!3m6!1s0xfdf9d34b34baa3d:0x2365f10a3ab3862c!8m2!3d5.6691593!4d-0.1678827!16s%2Fg%2F11rkbh2550!19sChIJPapLszSd3w8RLIazOgrxZSM?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJ7xHRe0Kc3w8RK_hozdinGQ4",
+    "name": "Bliss Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 4,
+    "competitors": [
+      {
+        "name": "Papaye fast foods - haatso branch",
+        "link": "https://www.google.com/maps/search/Papaye+fast+foods+-+haatso+branch/@5.667031800000001,-0.18705149999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 1146,
+        "rating": 4.1,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Royal Bliss Restaurant",
+        "link": "https://www.google.com/maps/search/Royal+Bliss+Restaurant/@5.5818034,-0.2166082?authuser=0&hl=en&entry=ttu",
+        "reviews": 23,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Hot and Spicy Nigerian Restaurant",
+        "link": "https://www.google.com/maps/search/Hot+and+Spicy+Nigerian+Restaurant/@5.667785599999999,-0.1967045?authuser=0&hl=en&entry=ttu",
+        "reviews": 5,
+        "rating": 4.6,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Meal on the GO",
+        "link": "https://www.google.com/maps/search/Meal+on+the+GO/@5.662903,-0.21906399999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 4,
+        "rating": 4.5,
+        "main_category": "Chicken"
+      },
+      {
+        "name": "Bliss Food joint",
+        "link": "https://www.google.com/maps/search/Bliss+Food+joint/@5.583946999999999,-0.23151429999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "https://website--2460464744983198147253-restaurant.business.site/?utm_source=gmb&utm_medium=referral",
+    "owner": {
+      "id": "110648993308425726058",
+      "name": "Bliss Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/110648993308425726058"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipPQVSbWQX0vL9bk5b1mZS1NNEk3CuLv_UJxFSKg=w408-h725-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 2.8,
+    "workday_timing": "8 am-10 pm",
+    "closed_on": [
+      "Sunday"
+    ],
+    "phone": null,
+    "address": "Bliss Restaurant, 222 Haatso-Atomic Rd, Accra",
+    "review_keywords": [],
+    "link": "https://www.google.com/maps/place/Bliss+Restaurant/data=!4m7!3m6!1s0xfdf9c427bd111ef:0xe19a7d8cd68f82b!8m2!3d5.6671534!4d-0.199095!16s%2Fg%2F11d_75_rtw!19sChIJ7xHRe0Kc3w8RK_hozdinGQ4?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJ4yc6-8mD3w8RqDIdfQE3QJU",
+    "name": "Lidash Eatery",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 2,
+    "competitors": [
+      {
+        "name": "De'lish Restaurant",
+        "link": "https://www.google.com/maps/search/De%27lish+Restaurant/@5.641330000000001,-0.1736955?authuser=0&hl=en&entry=ttu",
+        "reviews": 874,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "DeLush Foods",
+        "link": "https://www.google.com/maps/search/DeLush+Foods/@5.7102873999999995,-0.2020922?authuser=0&hl=en&entry=ttu",
+        "reviews": 7,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Lynders Kitchen",
+        "link": "https://www.google.com/maps/search/Lynders+Kitchen/@5.6007731000000005,-0.0795087?authuser=0&hl=en&entry=ttu",
+        "reviews": 4,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "LYNNALISA SPECIAL",
+        "link": "https://www.google.com/maps/search/LYNNALISA+SPECIAL/@5.5886813,-0.1117971?authuser=0&hl=en&entry=ttu",
+        "reviews": 3,
+        "rating": 4.3,
+        "main_category": "Fast Food"
+      },
+      {
+        "name": "Andy's Place",
+        "link": "https://www.google.com/maps/search/Andy%27s+Place/@5.591398,-0.0895127?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "https://lidash-kitchen.business.site/%3Futm_source%3Dgmb%26utm_medium%3Dreferral",
+    "owner": {
+      "id": "107242187297647124488",
+      "name": "Lidash Eatery (Owner)",
+      "link": "https://www.google.com/maps/contrib/107242187297647124488"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipNE7UFCd8YdEddSRA0OjmNUv4bMyBbO0QgnKqZa=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 5,
+    "workday_timing": "8 am-6 pm",
+    "closed_on": [
+      "Sunday"
+    ],
+    "phone": "024 222 4285",
+    "address": "Lidash Eatery, Nmai Dzorn, Pumle St, Accra",
+    "review_keywords": [],
+    "link": "https://www.google.com/maps/place/Lidash+Eatery/data=!4m7!3m6!1s0xfdf83c9fb3a27e3:0x954037017d1d32a8!8m2!3d5.6785399!4d-0.1204105!16s%2Fg%2F11j30r58wt!19sChIJ4yc6-8mD3w8RqDIdfQE3QJU?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJ4brZqjCD3w8RuJHdRYDXt3U",
+    "name": "Homeaway Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 1,
+    "competitors": [
+      {
+        "name": "Waakye Exclusive",
+        "link": "https://www.google.com/maps/search/Waakye+Exclusive/@5.6138072,-0.1871628?authuser=0&hl=en&entry=ttu",
+        "reviews": 28,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Adjorkor Kitchen",
+        "link": "https://www.google.com/maps/search/Adjorkor+Kitchen/@5.5626123,-0.15369020000000003?authuser=0&hl=en&entry=ttu",
+        "reviews": 2,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Wazobia Nigerian Home kitchen",
+        "link": "https://www.google.com/maps/search/Wazobia+Nigerian+Home+kitchen/@5.6243213999999995,-0.0748007?authuser=0&hl=en&entry=ttu",
+        "reviews": 1,
+        "rating": 2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Mhakosei Foods",
+        "link": "https://www.google.com/maps/search/Mhakosei+Foods/@5.6456273,-0.14171519999999999?authuser=0&hl=en&entry=ttu",
+        "reviews": 1,
+        "rating": 5,
+        "main_category": "African"
+      },
+      {
+        "name": "Koowa Eatery",
+        "link": "https://www.google.com/maps/search/Koowa+Eatery/@5.678636,-0.17379699999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": "http://www.homeawayrestaurant.wordpress.com/",
+    "owner": {
+      "id": "114100310691883202127",
+      "name": "Homeaway Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/114100310691883202127"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipNb_fGBplPgL-BsgT4DAl7XtBkn8-Q6Ph8BE4Y8=w426-h240-k-no",
+    "main_category": "Fine dining restaurant",
+    "categories": [
+      "Fine dining restaurant"
+    ],
+    "rating": 5,
+    "workday_timing": "Open 24 hours",
+    "closed_on": [
+      "Sunday"
+    ],
+    "phone": "055 541 4967",
+    "address": "Homeaway Restaurant, 19 Jacob Ave, Accra",
+    "review_keywords": [],
+    "link": "https://www.google.com/maps/place/Homeaway+Restaurant/data=!4m7!3m6!1s0xfdf8330aad9bae1:0x75b7d78045dd91b8!8m2!3d5.6769392!4d-0.1125345!16s%2Fg%2F11spxp2fdb!19sChIJ4brZqjCD3w8RuJHdRYDXt3U?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJIWmmaGeZ3w8RTGtA1UQxwIA",
+    "name": "The Ghanaian Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": null,
+    "competitors": [
+      {
+        "name": "The Ghanaian Village Restaurant",
+        "link": "https://www.google.com/maps/search/The+Ghanaian+Village+Restaurant/@5.5615888,-0.1429759?authuser=0&hl=en&entry=ttu",
+        "reviews": 427,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "JOLLOF RESTAURANT",
+        "link": "https://www.google.com/maps/search/JOLLOF+RESTAURANT/@5.5525994,-0.2644588?authuser=0&hl=en&entry=ttu",
+        "reviews": 332,
+        "rating": 3.7,
+        "main_category": "Rice restaurant"
+      },
+      {
+        "name": "Special Fufu",
+        "link": "https://www.google.com/maps/search/Special+Fufu/@5.6444355999999996,-0.2237938?authuser=0&hl=en&entry=ttu",
+        "reviews": 11,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Fafa's Place",
+        "link": "https://www.google.com/maps/search/Fafa%27s+Place/@5.611684599999999,-0.20315329999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 3,
+        "rating": 4.7,
+        "main_category": "African"
+      },
+      {
+        "name": "taste of Africa pub&restaurants",
+        "link": "https://www.google.com/maps/search/taste+of+Africa+pub%26restaurants/@5.6222543,-0.24554589999999996?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Grill"
+      }
+    ],
+    "website": "http://ghanaianrestaurant.com/",
+    "owner": {
+      "id": null,
+      "name": "The Ghanaian Restaurant (Owner)",
+      "link": null
+    },
+    "featured_image": null,
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": null,
+    "workday_timing": "8 am-9 pm",
+    "closed_on": "Open All Days",
+    "phone": null,
+    "address": "JQR9+MFV The Ghanaian Restaurant, Parakuo Boundary Rd, Accra",
+    "review_keywords": [],
+    "link": "https://www.google.com/maps/place/The+Ghanaian+Restaurant/data=!4m7!3m6!1s0xfdf996768a66921:0x80c03144d5406b4c!8m2!3d5.6417492!4d-0.2313416!16s%2Fg%2F11sx089gwj!19sChIJIWmmaGeZ3w8RTGtA1UQxwIA?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJyzvkooGa3w8RYPDc17RaCuE",
+    "name": "Chez Clarisse Mama Africa",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 1113,
+    "competitors": [
+      {
+        "name": "Chez Afrique",
+        "link": "https://www.google.com/maps/search/Chez+Afrique/@5.6343127,-0.1711801?authuser=0&hl=en&entry=ttu",
+        "reviews": 1237,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Mama Cuisine",
+        "link": "https://www.google.com/maps/search/Mama+Cuisine/@5.597436999999999,-0.1816778?authuser=0&hl=en&entry=ttu",
+        "reviews": 679,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Le Tandem",
+        "link": "https://www.google.com/maps/search/Le+Tandem/@5.5794194,-0.1608444?authuser=0&hl=en&entry=ttu",
+        "reviews": 361,
+        "rating": 4.5,
+        "main_category": "French"
+      },
+      {
+        "name": "Mama africa Nigerian Restaurant",
+        "link": "https://www.google.com/maps/search/Mama+africa+Nigerian+Restaurant/@5.551878299999999,-0.1807081?authuser=0&hl=en&entry=ttu",
+        "reviews": 57,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Addis Ababa Restaurant Ghana",
+        "link": "https://www.google.com/maps/search/Addis+Ababa+Restaurant+Ghana/@5.563671200000001,-0.184333?authuser=0&hl=en&entry=ttu",
+        "reviews": 13,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "109646611199983916046",
+      "name": "Chez Clarisse Mama Africa (Owner)",
+      "link": "https://www.google.com/maps/contrib/109646611199983916046"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipNnXtJJl0lCnHG-qHMh3uby1GMWmBDriTWK2ef4=w408-h272-k-no",
+    "main_category": "African restaurant",
+    "categories": [
+      "African restaurant",
+      "West African restaurant"
+    ],
+    "rating": 4.1,
+    "workday_timing": "9:30 am-12 am",
+    "closed_on": "Open All Days",
+    "phone": "024 294 8828",
+    "address": "Chez Clarisse Mama Africa, 8th Ln, Accra",
+    "review_keywords": [
+      {
+        "keyword": "tilapia",
+        "count": 71
+      },
+      {
+        "keyword": "acheke",
+        "count": 40
+      },
+      {
+        "keyword": "local",
+        "count": 31
+      },
+      {
+        "keyword": "ivorian cuisine",
+        "count": 24
+      },
+      {
+        "keyword": "grilled",
+        "count": 20
+      },
+      {
+        "keyword": "jollof",
+        "count": 19
+      },
+      {
+        "keyword": "renovations",
+        "count": 12
+      },
+      {
+        "keyword": "value",
+        "count": 8
+      },
+      {
+        "keyword": "sobolo",
+        "count": 8
+      },
+      {
+        "keyword": "staple",
+        "count": 6
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Chez+Clarisse+Mama+Africa/data=!4m7!3m6!1s0xfdf9a81a2e43bcb:0xe10a5ab4d7dcf060!8m2!3d5.5641941!4d-0.1839006!16s%2Fg%2F11btrqzpg_!19sChIJyzvkooGa3w8RYPDc17RaCuE?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJFRF3read3w8RvNmknAqauIc",
+    "name": "LI BEIRUT",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 556,
+    "competitors": [
+      {
+        "name": "Soul Restaurant and Bar East Legon",
+        "link": "https://www.google.com/maps/search/Soul+Restaurant+and+Bar+East+Legon/@5.6446581,-0.1574962?authuser=0&hl=en&entry=ttu",
+        "reviews": 260,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "BABEL RESTAURANT GHANA",
+        "link": "https://www.google.com/maps/search/BABEL+RESTAURANT+GHANA/@5.5684289,-0.1695679?authuser=0&hl=en&entry=ttu",
+        "reviews": 205,
+        "rating": 4.5,
+        "main_category": "Seafood"
+      },
+      {
+        "name": "Oceano Restaurant",
+        "link": "https://www.google.com/maps/search/Oceano+Restaurant/@5.6472315,-0.1530125?authuser=0&hl=en&entry=ttu",
+        "reviews": 175,
+        "rating": 4.1,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Lebanese Resaurant",
+        "link": "https://www.google.com/maps/search/Lebanese+Resaurant/@5.609670299999999,-0.19968039999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 31,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "107796392856375641901",
+      "name": "LI BEIRUT (Owner)",
+      "link": "https://www.google.com/maps/contrib/107796392856375641901"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipOX-ZDH98C2Ehlcji5dWXnyoWZ6ykFKDMSgoysN=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.5,
+    "workday_timing": "9 am-11 pm",
+    "closed_on": "Open All Days",
+    "phone": "050 070 0500",
+    "address": "LI BEIRUT, Accra",
+    "review_keywords": [
+      {
+        "keyword": "customer service",
+        "count": 32
+      },
+      {
+        "keyword": "experience",
+        "count": 20
+      },
+      {
+        "keyword": "lebanese food",
+        "count": 16
+      },
+      {
+        "keyword": "seafood platter",
+        "count": 13
+      },
+      {
+        "keyword": "environment",
+        "count": 12
+      },
+      {
+        "keyword": "manager",
+        "count": 8
+      },
+      {
+        "keyword": "drinks",
+        "count": 8
+      },
+      {
+        "keyword": "family",
+        "count": 7
+      },
+      {
+        "keyword": "fried rice",
+        "count": 6
+      },
+      {
+        "keyword": "atmosphere",
+        "count": 6
+      }
+    ],
+    "link": "https://www.google.com/maps/place/LI+BEIRUT/data=!4m7!3m6!1s0xfdf9de6ad771115:0x87b89a0a9ca4d9bc!8m2!3d5.6470961!4d-0.1528775!16s%2Fg%2F11h5n5ddv7!19sChIJFRF3read3w8RvNmknAqauIc?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJ7ZCzCh6b3w8RCb2tqwRCndQ",
+    "name": "The Landing Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 311,
+    "competitors": [
+      {
+        "name": "Chapter One Restaurant",
+        "link": "https://www.google.com/maps/search/Chapter+One+Restaurant/@5.6091137,-0.1822349?authuser=0&hl=en&entry=ttu",
+        "reviews": 52,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "The Pub",
+        "link": "https://www.google.com/maps/search/The+Pub/@5.6004928,-0.1731473?authuser=0&hl=en&entry=ttu",
+        "reviews": 20,
+        "rating": 3.8,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Marina's Restaurant",
+        "link": "https://www.google.com/maps/search/Marina%27s+Restaurant/@5.6032892,-0.1760285?authuser=0&hl=en&entry=ttu",
+        "reviews": 13,
+        "rating": 3.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Wok Inn Chinese Restaurant",
+        "link": "https://www.google.com/maps/search/Wok+Inn+Chinese+Restaurant/@5.607365199999999,-0.1713963?authuser=0&hl=en&entry=ttu",
+        "reviews": 5,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "114061579246808707846",
+      "name": "The Landing Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/114061579246808707846"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipNrS6RRp-hlcfilJ_yb9qSWbOdfVdFvo-2ImLfL=w408-h272-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4,
+    "workday_timing": "7 am-10 pm",
+    "closed_on": "Open All Days",
+    "phone": "030 277 3747",
+    "address": "The Landing Restaurant, Airport Rd, Accra",
+    "review_keywords": [
+      {
+        "keyword": "airport",
+        "count": 11
+      },
+      {
+        "keyword": "customer service",
+        "count": 11
+      },
+      {
+        "keyword": "environment",
+        "count": 10
+      },
+      {
+        "keyword": "rice",
+        "count": 6
+      },
+      {
+        "keyword": "fufu",
+        "count": 4
+      },
+      {
+        "keyword": "stew",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/The+Landing+Restaurant/data=!4m7!3m6!1s0xfdf9b1e0ab390ed:0xd49d4204abadbd09!8m2!3d5.6049936!4d-0.172874!16s%2Fg%2F1tfqh4wv!19sChIJ7ZCzCh6b3w8RCb2tqwRCndQ?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJF4Kixeec3w8R81viFyuCmG0",
+    "name": "Las Palmas",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 298,
+    "competitors": [
+      {
+        "name": "Las Palmas Restaurant Achimota",
+        "link": "https://www.google.com/maps/search/Las+Palmas+Restaurant+Achimota/@5.6176471,-0.22941369999999997?authuser=0&hl=en&entry=ttu",
+        "reviews": 294,
+        "rating": 3.6,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "THE PALACE BAR & RESTAURANT",
+        "link": "https://www.google.com/maps/search/THE+PALACE+BAR+%26+RESTAURANT/@5.6597066,-0.1625622?authuser=0&hl=en&entry=ttu",
+        "reviews": 256,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Las Palmas Restaurant Abeka",
+        "link": "https://www.google.com/maps/search/Las+Palmas+Restaurant+Abeka/@5.6025646,-0.2419215?authuser=0&hl=en&entry=ttu",
+        "reviews": 210,
+        "rating": 3.7,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Las Palmas Restaurant",
+        "link": "https://www.google.com/maps/search/Las+Palmas+Restaurant/@5.5680992,-0.2428748?authuser=0&hl=en&entry=ttu",
+        "reviews": 118,
+        "rating": 3.7,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "MiLady Restaurant",
+        "link": "https://www.google.com/maps/search/MiLady+Restaurant/@5.676038999999999,-0.1659781?authuser=0&hl=en&entry=ttu",
+        "reviews": 49,
+        "rating": 4.7,
+        "main_category": "Family-friendly"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": null,
+      "name": "Las Palmas (Owner)",
+      "link": null
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipO2mOB3170O_ZZUiDlGZ2bEOt4lhg6bKQUXzBkS=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 3.9,
+    "workday_timing": "6:30 am-10 pm",
+    "closed_on": "Open All Days",
+    "phone": null,
+    "address": "MRHJ+57P Las Palmas, Madina",
+    "review_keywords": [
+      {
+        "keyword": "local food",
+        "count": 13
+      },
+      {
+        "keyword": "prices",
+        "count": 9
+      },
+      {
+        "keyword": "environment",
+        "count": 8
+      },
+      {
+        "keyword": "customer service",
+        "count": 7
+      },
+      {
+        "keyword": "home",
+        "count": 4
+      },
+      {
+        "keyword": "local dishes",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Las+Palmas/data=!4m7!3m6!1s0xfdf9ce7c5a28217:0x6d98822b17e25bf3!8m2!3d5.6779592!4d-0.1693004!16s%2Fg%2F11b5yqb53z!19sChIJF4Kixeec3w8R81viFyuCmG0?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJc2szlrad3w8R7GUiCMAPqXc",
+    "name": "Fellows Bar And Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 248,
+    "competitors": [
+      {
+        "name": "TF's Eatery",
+        "link": "https://www.google.com/maps/search/TF%27s+Eatery/@5.704034699999999,-0.15118289999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 425,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Fatty Grill Local",
+        "link": "https://www.google.com/maps/search/Fatty+Grill+Local/@5.7087129,-0.1652342?authuser=0&hl=en&entry=ttu",
+        "reviews": 228,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Queen's Tavern Bar & Restaurant",
+        "link": "https://www.google.com/maps/search/Queen%27s+Tavern+Bar+%26+Restaurant/@5.7087343,-0.1537288?authuser=0&hl=en&entry=ttu",
+        "reviews": 186,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Eleven15 Restaurant",
+        "link": "https://www.google.com/maps/search/Eleven15+Restaurant/@5.7017599,-0.1372111?authuser=0&hl=en&entry=ttu",
+        "reviews": 68,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Anoyeb Pub & Restaurant",
+        "link": "https://www.google.com/maps/search/Anoyeb+Pub+%26+Restaurant/@5.712871499999999,-0.1511267?authuser=0&hl=en&entry=ttu",
+        "reviews": 5,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "115648602457648161507",
+      "name": "Fellows Bar And Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/115648602457648161507"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipO5edeAKhn_Jw9fa7tWF4Qc_RXUitnAIuu-W7cD=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.4,
+    "workday_timing": "10:30 am-10:30 pm",
+    "closed_on": "Open All Days",
+    "phone": "055 762 8211",
+    "address": "Fellows Bar And Restaurant, Adenta Municipality",
+    "review_keywords": [
+      {
+        "keyword": "music",
+        "count": 6
+      },
+      {
+        "keyword": "drinks",
+        "count": 6
+      },
+      {
+        "keyword": "environment",
+        "count": 3
+      },
+      {
+        "keyword": "price",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Fellows+Bar+And+Restaurant/data=!4m7!3m6!1s0xfdf9db696336b73:0x77a90fc0082265ec!8m2!3d5.7146868!4d-0.1589102!16s%2Fg%2F11flggrvtt!19sChIJc2szlrad3w8R7GUiCMAPqXc?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJw9ASntV33w8RKFtXBbGtuLg",
+    "name": "Honey's Drive Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 190,
+    "competitors": [
+      {
+        "name": "Hajia Sauda Restaurant",
+        "link": "https://www.google.com/maps/search/Hajia+Sauda+Restaurant/@5.7140333,-0.1844392?authuser=0&hl=en&entry=ttu",
+        "reviews": 129,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Bee's Food Joint",
+        "link": "https://www.google.com/maps/search/Bee%27s+Food+Joint/@5.5939711999999995,-0.1275576?authuser=0&hl=en&entry=ttu",
+        "reviews": 13,
+        "rating": 3.6,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Basepoint Restaurant",
+        "link": "https://www.google.com/maps/search/Basepoint+Restaurant/@5.7422572999999995,-0.1763707?authuser=0&hl=en&entry=ttu",
+        "reviews": 2,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "BlueBerry Eatery",
+        "link": "https://www.google.com/maps/search/BlueBerry+Eatery/@5.7097041,-0.20792829999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 1,
+        "rating": 5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Yaamends Pub and Eatery",
+        "link": "https://www.google.com/maps/search/Yaamends+Pub+and+Eatery/@5.7130522,-0.1870073?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": null,
+      "name": "Honey's Drive Restaurant (Owner)",
+      "link": null
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipNJPhv627ZgdmbEE8QR948instPavmDhJ3fBh3C=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4,
+    "workday_timing": "9 am-10 pm",
+    "closed_on": "Open All Days",
+    "phone": "023 555 7888",
+    "address": "PRJ8+95W Honey's Drive Restaurant, Pantang West",
+    "review_keywords": [
+      {
+        "keyword": "music",
+        "count": 6
+      },
+      {
+        "keyword": "rice",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Honey%27s+Drive+Restaurant/data=!4m7!3m6!1s0xfdf77d59e12d0c3:0xb8b8adb105575b28!8m2!3d5.7309897!4d-0.1845504!16s%2Fg%2F11c30vl01q!19sChIJw9ASntV33w8RKFtXBbGtuLg?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJsem2ktKd3w8RpN1I1PpD1k8",
+    "name": "Asanka Avenue Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 113,
+    "competitors": [
+      {
+        "name": "Asanka Local International Chop Bar",
+        "link": "https://www.google.com/maps/search/Asanka+Local+International+Chop+Bar/@5.5596681,-0.1786446?authuser=0&hl=en&entry=ttu",
+        "reviews": 784,
+        "rating": 3.9,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Bantama Avenue",
+        "link": "https://www.google.com/maps/search/Bantama+Avenue/@5.6398486,-0.1510384?authuser=0&hl=en&entry=ttu",
+        "reviews": 343,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "ASANKA LOCAL RESTAURANT",
+        "link": "https://www.google.com/maps/search/ASANKA+LOCAL+RESTAURANT/@5.659173699999999,-0.1632641?authuser=0&hl=en&entry=ttu",
+        "reviews": 310,
+        "rating": 3.8,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Asanka Restaurant",
+        "link": "https://www.google.com/maps/search/Asanka+Restaurant/@5.571644,-0.206054?authuser=0&hl=en&entry=ttu",
+        "reviews": 207,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "African City Cuisine",
+        "link": "https://www.google.com/maps/search/African+City+Cuisine/@5.6384215,-0.1503003?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "109108854421999663976",
+      "name": "Asanka Avenue Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/109108854421999663976"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipPMBWjpnWo_vGCO_QdqUT-AtnwUZXSyNqvJOklV=w426-h240-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.2,
+    "workday_timing": "10 am-8 pm",
+    "closed_on": "Open All Days",
+    "phone": "054 492 4700",
+    "address": "Asanka Avenue Restaurant, 402 Agbogba - Ashongman Rd, Accra",
+    "review_keywords": [
+      {
+        "keyword": "environment",
+        "count": 12
+      },
+      {
+        "keyword": "fufu",
+        "count": 10
+      },
+      {
+        "keyword": "soup",
+        "count": 8
+      },
+      {
+        "keyword": "customer service",
+        "count": 6
+      },
+      {
+        "keyword": "price",
+        "count": 6
+      },
+      {
+        "keyword": "local foods",
+        "count": 4
+      },
+      {
+        "keyword": "groundnut",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Asanka+Avenue+Restaurant/data=!4m7!3m6!1s0xfdf9dd292b6e9b1:0x4fd643fad448dda4!8m2!3d5.6765761!4d-0.1913035!16s%2Fg%2F11j3qf_r_x!19sChIJsem2ktKd3w8RpN1I1PpD1k8?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJ7Svw56GF3w8R8mTUnftqUDc",
+    "name": "kukinpot Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 103,
+    "competitors": [
+      {
+        "name": "Griddle Kitchen",
+        "link": "https://www.google.com/maps/search/Griddle+Kitchen/@5.6184299,-0.08152640000000001?authuser=0&hl=en&entry=ttu",
+        "reviews": 45,
+        "rating": 4.6,
+        "main_category": "African"
+      },
+      {
+        "name": "Lylis Bites",
+        "link": "https://www.google.com/maps/search/Lylis+Bites/@5.609908,-0.0827364?authuser=0&hl=en&entry=ttu",
+        "reviews": 5,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Papacy Restaurant",
+        "link": "https://www.google.com/maps/search/Papacy+Restaurant/@5.6190236,-0.1159071?authuser=0&hl=en&entry=ttu",
+        "reviews": 4,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Chikito Nigerian kitchen",
+        "link": "https://www.google.com/maps/search/Chikito+Nigerian+kitchen/@5.6077531,-0.0783382?authuser=0&hl=en&entry=ttu",
+        "reviews": 2,
+        "rating": 5,
+        "main_category": "Fast Food"
+      },
+      {
+        "name": "Fufu joint1",
+        "link": "https://www.google.com/maps/search/Fufu+joint1/@5.6097911,-0.0903167?authuser=0&hl=en&entry=ttu",
+        "reviews": 1,
+        "rating": 5,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "110991648460430494964",
+      "name": "kukinpot Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/110991648460430494964"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipMMjDl9-GLfQt6Ci5ZM9rN7yBRy7_ZCWvnnPHRE=w408-h272-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.3,
+    "workday_timing": "10 am-10 pm",
+    "closed_on": "Open All Days",
+    "phone": "024 508 5343",
+    "address": "kukinpot Restaurant, No.2 Yam Link, Teshie-Nungua Eatates Accra",
+    "review_keywords": [
+      {
+        "keyword": "customer service",
+        "count": 3
+      }
+    ],
+    "link": "https://www.google.com/maps/place/kukinpot+Restaurant/data=!4m7!3m6!1s0xfdf85a1e7f02bed:0x37506afb9dd464f2!8m2!3d5.6098299!4d-0.0914376!16s%2Fg%2F11g0w2f52v!19sChIJ7Svw56GF3w8R8mTUnftqUDc?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJOzUxg3Wb3w8Re0ElZOcXqhE",
+    "name": "Boomiis Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 52,
+    "competitors": [
+      {
+        "name": "Nigerian Kitchen, Accra",
+        "link": "https://www.google.com/maps/search/Nigerian+Kitchen%2C+Accra/@5.6473254,-0.1187414?authuser=0&hl=en&entry=ttu",
+        "reviews": 80,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Obinna Nigerian kitchen",
+        "link": "https://www.google.com/maps/search/Obinna+Nigerian+kitchen/@5.631869099999999,-0.0767891?authuser=0&hl=en&entry=ttu",
+        "reviews": 47,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Mekus Kitchen (Nigerian Dishes)",
+        "link": "https://www.google.com/maps/search/Mekus+Kitchen+%28Nigerian+Dishes%29/@5.6060671,-0.21760939999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 20,
+        "rating": 4.4,
+        "main_category": "African"
+      },
+      {
+        "name": "Mimilicious Delicacies: Nigerian/Ghana ( DELIVERY ONLY)",
+        "link": "https://www.google.com/maps/search/Mimilicious+Delicacies%3A+Nigerian%2FGhana+%28+DELIVERY+ONLY%29/@5.6750625,-0.12768749999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 6,
+        "rating": 4.7,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "African City Cuisine",
+        "link": "https://www.google.com/maps/search/African+City+Cuisine/@5.6384215,-0.1503003?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "111203309414822692656",
+      "name": "Boomiis Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/111203309414822692656"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipPL2GHlK8AVaZ9NU_QkOEbehnI8SAfOGJWtIyse=w533-h240-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.4,
+    "workday_timing": "8 am-12 am",
+    "closed_on": [
+      "Sunday"
+    ],
+    "phone": "050 638 7636",
+    "address": "Boomiis Restaurant, 47 Adjiringano Rd, Accra",
+    "review_keywords": [
+      {
+        "keyword": "nigerian",
+        "count": 9
+      }
+    ],
+    "link": "https://www.google.com/maps/place/Boomiis+Restaurant/data=!4m7!3m6!1s0xfdf9b758331353b:0x11aa17e76425417b!8m2!3d5.6458727!4d-0.1408735!16s%2Fg%2F11j2xk83ll!19sChIJOzUxg3Wb3w8Re0ElZOcXqhE?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJt83IxQad3w8R_XbFeInpVYk",
+    "name": "Nsanopa Bar & Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 5,
+    "competitors": [
+      {
+        "name": "Nieces Obaapa Bar & Restaurant",
+        "link": "https://www.google.com/maps/search/Nieces+Obaapa+Bar+%26+Restaurant/@5.6407376,-0.1595883?authuser=0&hl=en&entry=ttu",
+        "reviews": 4,
+        "rating": 4.8,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Nanayaws Ave",
+        "link": "https://www.google.com/maps/search/Nanayaws+Ave/@5.707069000000001,-0.1605453?authuser=0&hl=en&entry=ttu",
+        "reviews": 1,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Africa Mama Fast Food",
+        "link": "https://www.google.com/maps/search/Africa+Mama+Fast+Food/@5.7170951,-0.1645431?authuser=0&hl=en&entry=ttu",
+        "reviews": 1,
+        "rating": 5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Obaatanpa Special Chop Bar",
+        "link": "https://www.google.com/maps/search/Obaatanpa+Special+Chop+Bar/@5.6603128,-0.2370693?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "112985624230722201882",
+      "name": "Nsanopa Bar & Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/112985624230722201882"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipMILUqnL7XxRH4DtlceUMBdpdTAlWGesoZGrcEW=w408-h306-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.2,
+    "workday_timing": "Open 24 hours",
+    "closed_on": "Open All Days",
+    "phone": "055 005 0644",
+    "address": "Nsanopa Bar & Restaurant, Adenta Fafraha, Accra",
+    "review_keywords": [],
+    "link": "https://www.google.com/maps/place/Nsanopa+Bar+%26+Restaurant/data=!4m7!3m6!1s0xfdf9d06c5c8cdb7:0x8955e98978c576fd!8m2!3d5.7160824!4d-0.1682422!16s%2Fg%2F11rzp9m2kd!19sChIJt83IxQad3w8R_XbFeInpVYk?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJJdU5DnWb3w8RHJLqIANnod0",
+    "name": "Pataase Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 5,
+    "competitors": [
+      {
+        "name": "Paloma Restaurant",
+        "link": "https://www.google.com/maps/search/Paloma+Restaurant/@5.5725207,-0.2059349?authuser=0&hl=en&entry=ttu",
+        "reviews": 658,
+        "rating": 4.1,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Tea Buffet gh",
+        "link": "https://www.google.com/maps/search/Tea+Buffet+gh/@5.5783603,-0.14033389999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 45,
+        "rating": 4.3,
+        "main_category": "Breakfast"
+      },
+      {
+        "name": "Fufu Asap",
+        "link": "https://www.google.com/maps/search/Fufu+Asap/@5.6504883,-0.14937989999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 41,
+        "rating": 4.6,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Restaurant",
+        "link": "https://www.google.com/maps/search/Restaurant/@5.572680999999999,-0.20067089999999999?authuser=0&hl=en&entry=ttu",
+        "reviews": 7,
+        "rating": 3.6,
+        "main_category": "African"
+      },
+      {
+        "name": "The Palm Restaurant Gh",
+        "link": "https://www.google.com/maps/search/The+Palm+Restaurant+Gh/@5.553588899999999,-0.18082769999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 5,
+        "rating": 4.6,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "108501208783520250864",
+      "name": "Pataase Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/108501208783520250864"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipPWijMxfOOnXeOHmsKc-OY1zfuSGnAOIw6oWU4h=w408-h265-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4.4,
+    "workday_timing": "6 am-11:30 pm",
+    "closed_on": "Open All Days",
+    "phone": "054 431 3101",
+    "address": "Pataase Restaurant, Ring Road Central, Accra",
+    "review_keywords": [],
+    "link": "https://www.google.com/maps/place/Pataase+Restaurant/data=!4m7!3m6!1s0xfdf9b750e39d525:0xdda1670320ea921c!8m2!3d5.572648!4d-0.205108!16s%2Fg%2F11jchffyk4!19sChIJJdU5DnWb3w8RHJLqIANnod0?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJi8UAMKed3w8R-O8Ywa_Okfw",
+    "name": "Homemade cuisine",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 4,
+    "competitors": [
+      {
+        "name": "Home Made Local Restaurant",
+        "link": "https://www.google.com/maps/search/Home+Made+Local+Restaurant/@5.6645974,-0.1642387?authuser=0&hl=en&entry=ttu",
+        "reviews": 856,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Party House Bar & Grill",
+        "link": "https://www.google.com/maps/search/Party+House+Bar+%26+Grill/@5.7106693,-0.1508243?authuser=0&hl=en&entry=ttu",
+        "reviews": 14,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Kitchenmatics",
+        "link": "https://www.google.com/maps/search/Kitchenmatics/@5.712966600000001,-0.1507953?authuser=0&hl=en&entry=ttu",
+        "reviews": 3,
+        "rating": 5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Home Cooked Restaurant",
+        "link": "https://www.google.com/maps/search/Home+Cooked+Restaurant/@5.6794994,-0.1791224?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "100938454995626310461",
+      "name": "Homemade cuisine (Owner)",
+      "link": "https://www.google.com/maps/contrib/100938454995626310461"
+    },
+    "featured_image": null,
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4,
+    "workday_timing": "9 am-10 pm",
+    "closed_on": [
+      "Sunday"
+    ],
+    "phone": "024 593 4055",
+    "address": "Homemade cuisine, Mensah Kwao Osantro Rd, Adenta Municipality",
+    "review_keywords": [],
+    "link": "https://www.google.com/maps/place/Homemade+cuisine/data=!4m7!3m6!1s0xfdf9da73000c58b:0xfc91ceafc118eff8!8m2!3d5.7215714!4d-0.1566384!16s%2Fg%2F11qh2jtbzg!19sChIJi8UAMKed3w8R-O8Ywa_Okfw?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJzabdIgmd3w8R7EKB0mM-6hc",
+    "name": "Salvation Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 1,
+    "competitors": [
+      {
+        "name": "Fellows Bar And Restaurant",
+        "link": "https://www.google.com/maps/search/Fellows+Bar+And+Restaurant/@5.7146868,-0.1589102?authuser=0&hl=en&entry=ttu",
+        "reviews": 248,
+        "rating": 4.4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Homemade cuisine",
+        "link": "https://www.google.com/maps/search/Homemade+cuisine/@5.721571399999999,-0.15663839999999998?authuser=0&hl=en&entry=ttu",
+        "reviews": 4,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Mama Ashanti Restaurant N Pub",
+        "link": "https://www.google.com/maps/search/Mama+Ashanti+Restaurant+N+Pub/@5.7141258,-0.1541785?authuser=0&hl=en&entry=ttu",
+        "reviews": 1,
+        "rating": 5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "lindy's",
+        "link": "https://www.google.com/maps/search/lindy%27s/@5.7137882,-0.1567597?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "112679738931685509988",
+      "name": "Salvation Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/112679738931685509988"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipN5pUxiWSLkaDYTy_D2C9-Cbs2Cqh5fn6AQsQs=w408-h612-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 4,
+    "workday_timing": "10 am-11 pm",
+    "closed_on": "Open All Days",
+    "phone": "054 137 9266",
+    "address": "Salvation Restaurant, Mensah Kwao Osantro Rd, Adenta Municipality",
+    "review_keywords": [],
+    "link": "https://www.google.com/maps/place/Salvation+Restaurant/data=!4m7!3m6!1s0xfdf9d0922dda6cd:0x17ea3e63d28142ec!8m2!3d5.7205731!4d-0.1551497!16s%2Fg%2F11s2ql2mgz!19sChIJzabdIgmd3w8R7EKB0mM-6hc?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJW57GqHmD3w8RhwU25VQtIvo",
+    "name": "M&M Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 1,
+    "competitors": [
+      {
+        "name": "M&C Restaurant Two",
+        "link": "https://www.google.com/maps/search/M%26C+Restaurant+Two/@5.6083393,-0.1238285?authuser=0&hl=en&entry=ttu",
+        "reviews": 9,
+        "rating": 4.1,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "MON'S GRILL",
+        "link": "https://www.google.com/maps/search/MON%27S+GRILL/@5.7120375999999995,-0.12876490000000002?authuser=0&hl=en&entry=ttu",
+        "reviews": 2,
+        "rating": 5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "ML's Eatery",
+        "link": "https://www.google.com/maps/search/ML%27s+Eatery/@5.7033949,-0.12047479999999999?authuser=0&hl=en&entry=ttu",
+        "reviews": 1,
+        "rating": 5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "EAT ME",
+        "link": "https://www.google.com/maps/search/EAT+ME/@5.7018203,-0.1254118?authuser=0&hl=en&entry=ttu",
+        "reviews": 1,
+        "rating": 4,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "M&G Special",
+        "link": "https://www.google.com/maps/search/M%26G+Special/@5.6988004,-0.1718129?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Fast Food"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "109359391046582353566",
+      "name": "M&M Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/109359391046582353566"
+    },
+    "featured_image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=iauYItMl3Raz1IoEOXOGnA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=310.58163&pitch=0&thumbfov=100",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 5,
+    "workday_timing": "9 am-10 pm",
+    "closed_on": "Open All Days",
+    "phone": "025 703 9985",
+    "address": "M&M Restaurant, Lakeside community, 5 Elmina St, Accra",
+    "review_keywords": [],
+    "link": "https://www.google.com/maps/place/M%26M+Restaurant/data=!4m7!3m6!1s0xfdf8379a8c69e5b:0xfa222d54e5360587!8m2!3d5.7027042!4d-0.1222134!16s%2Fg%2F11t4bfnq8r!19sChIJW57GqHmD3w8RhwU25VQtIvo?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJOXHlx-Sb3w8RK2hixJj3CAI",
+    "name": "Comfort Dining",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": 1,
+    "competitors": [
+      {
+        "name": "Chez Afrique",
+        "link": "https://www.google.com/maps/search/Chez+Afrique/@5.6343127,-0.1711801?authuser=0&hl=en&entry=ttu",
+        "reviews": 1237,
+        "rating": 4.2,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Citrus Restaurant & Lounge",
+        "link": "https://www.google.com/maps/search/Citrus+Restaurant+%26+Lounge/@5.6377868,-0.1503309?authuser=0&hl=en&entry=ttu",
+        "reviews": 883,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Village Joint",
+        "link": "https://www.google.com/maps/search/Village+Joint/@5.6456383,-0.1560895?authuser=0&hl=en&entry=ttu",
+        "reviews": 60,
+        "rating": 4.3,
+        "main_category": "African"
+      },
+      {
+        "name": "Sauce restaurant & lounge",
+        "link": "https://www.google.com/maps/search/Sauce+restaurant+%26+lounge/@5.6374451,-0.1537995?authuser=0&hl=en&entry=ttu",
+        "reviews": 34,
+        "rating": 4.1,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "African City Cuisine",
+        "link": "https://www.google.com/maps/search/African+City+Cuisine/@5.6384215,-0.1503003?authuser=0&hl=en&entry=ttu",
+        "reviews": 0,
+        "rating": 0,
+        "main_category": "Restaurant"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "106360760099603962116",
+      "name": "Comfort Dining (Owner)",
+      "link": "https://www.google.com/maps/contrib/106360760099603962116"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipOqwsZisUVEZcGOPD35MQc6ZSxtizDaFwh4Iv6i=w485-h240-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": 5,
+    "workday_timing": "7 am-11 pm",
+    "closed_on": "Open All Days",
+    "phone": "050 460 4676",
+    "address": "Comfort Dining, Accra",
+    "review_keywords": [],
+    "link": "https://www.google.com/maps/place/Comfort+Dining/data=!4m7!3m6!1s0xfdf9be4c7e57139:0x208f798c462682b!8m2!3d5.6358281!4d-0.1613592!16s%2Fg%2F11hdt49gjs!19sChIJOXHlx-Sb3w8RK2hixJj3CAI?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "place_id": "ChIJtURDhPx33w8RhY8vwqM68nU",
+    "name": "Perry Americana Restaurant",
+    "description": null,
+    "is_spending_on_ads": false,
+    "reviews": null,
+    "competitors": [
+      {
+        "name": "Yaabs Kitchen",
+        "link": "https://www.google.com/maps/search/Yaabs+Kitchen/@5.7636208,-0.1743315?authuser=0&hl=en&entry=ttu",
+        "reviews": 75,
+        "rating": 4.7,
+        "main_category": "Takeout restaurant"
+      },
+      {
+        "name": "Perry's Place",
+        "link": "https://www.google.com/maps/search/Perry%27s+Place/@5.5842222,-0.2080388?authuser=0&hl=en&entry=ttu",
+        "reviews": 55,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Out & Taste Restaurant",
+        "link": "https://www.google.com/maps/search/Out+%26+Taste+Restaurant/@5.649951400000001,-0.1501457?authuser=0&hl=en&entry=ttu",
+        "reviews": 13,
+        "rating": 4.5,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Perry's",
+        "link": "https://www.google.com/maps/search/Perry%27s/@5.631068,-0.079536?authuser=0&hl=en&entry=ttu",
+        "reviews": 12,
+        "rating": 4.3,
+        "main_category": "Restaurant"
+      },
+      {
+        "name": "Perry'sFast Food",
+        "link": "https://www.google.com/maps/search/Perry%E2%80%99sFast+Food/@5.622978499999999,-0.0656587?authuser=0&hl=en&entry=ttu",
+        "reviews": 3,
+        "rating": 4,
+        "main_category": "Fast Food"
+      }
+    ],
+    "website": null,
+    "owner": {
+      "id": "116085648825121482195",
+      "name": "Perry Americana Restaurant (Owner)",
+      "link": "https://www.google.com/maps/contrib/116085648825121482195"
+    },
+    "featured_image": "https://lh5.googleusercontent.com/p/AF1QipMxHvvbsrhelngWz7-Jboo9vLPRyPwsDDrh8zNs=w506-h240-k-no",
+    "main_category": "Restaurant",
+    "categories": [
+      "Restaurant"
+    ],
+    "rating": null,
+    "workday_timing": "9 am-12 am",
+    "closed_on": "Open All Days",
+    "phone": "024 852 6874",
+    "address": "Perry Americana Restaurant, Ghana flag",
+    "review_keywords": [],
+    "link": "https://www.google.com/maps/place/Perry+Americana+Restaurant/data=!4m7!3m6!1s0xfdf77fc844344b5:0x75f23aa3c22f8f85!8m2!3d5.7671695!4d-0.1799632!16s%2Fg%2F11ry5cf3g2!19sChIJtURDhPx33w8RhY8vwqM68nU?authuser=0&hl=en&rclk=1"
+  }
+]
