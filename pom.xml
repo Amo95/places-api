@@ -65,6 +65,20 @@
                     </excludes>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>com.github.ferstl</groupId>
+                <artifactId>depgraph-maven-plugin</artifactId>
+                <version>3.3.0</version> <!-- Use the latest version -->
+                <executions>
+                    <execution>
+                        <id>generate-graph</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>graph</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
