@@ -6,12 +6,15 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.services.persistrestaurantdata.restaurant.Restaurant;
 import com.services.persistrestaurantdata.restaurant.RestaurantRepository;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
 
@@ -19,6 +22,7 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class DataLoader implements CommandLineRunner {
 
+    private final static Logger LOGGER = LoggerFactory.getLogger(DataLoader.class);
     private final RestaurantRepository restaurantRepository;
     private final ObjectMapper objectMapper;
 
@@ -38,7 +42,20 @@ public class DataLoader implements CommandLineRunner {
             restaurantsInfo.add(createRestaurantInfoNode(restaurant));
         }
 
-        restaurantRepository.saveAll(restaurantsInfo);
+
+        if (isNewRestaurantData(restaurantsInfo)) {
+            restaurantRepository.saveAll(restaurantsInfo);
+        } else {
+            LOGGER.warn("Data already exists!");
+        }
+    }
+
+    private boolean isNewRestaurantData(List<Restaurant> restaurantsInfo) {
+        List<Restaurant> existingRestaurants = restaurantRepository.findAll();
+        return !(
+                existingRestaurants
+                        .isEmpty() || !new HashSet<>(existingRestaurants)
+                        .containsAll(restaurantsInfo));
     }
 
     private Restaurant createRestaurantInfoNode(JsonNode restaurant) {
