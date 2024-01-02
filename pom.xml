@@ -8,11 +8,20 @@
         <version>3.2.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.services</groupId>
     <artifactId>restaurant-data-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>restaurant-data-api</name>
+
     <description>restaurant-data-api</description>
+
+    <modules>
+        <module>restaurant-data-api-client</module>
+        <module>persist-restaurant-data</module>
+        <module>commons</module>
+    </modules>
     <properties>
         <java.version>17</java.version>
     </properties>
