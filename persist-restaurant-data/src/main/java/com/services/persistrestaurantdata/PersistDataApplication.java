@@ -1,13 +1,13 @@
-package com.services.fetchrestaurantdata;
+package com.services.persistrestaurantdata;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class PersistDataApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(PersistDataApplication.class, args);
     }
 
 }

@@ -1,13 +1,13 @@
-package com.services.persistrestaurantdata;
+package com.services.fetchrestaurantdata;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class DataTransferApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(DataTransferApplication.class, args);
     }
 
 }
