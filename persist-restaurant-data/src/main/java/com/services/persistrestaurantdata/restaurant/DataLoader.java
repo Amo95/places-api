@@ -1,10 +1,10 @@
-package com.services.persistrestaurantdata;
+package com.services.persistrestaurantdata.restaurant;
 
 import aj.org.objectweb.asm.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.services.persistrestaurantdata.restaurant.Restaurant;
-import com.services.persistrestaurantdata.restaurant.RestaurantRepository;
+import com.services.persistrestaurantdata.restaurant.model.Restaurant;
+import com.services.persistrestaurantdata.restaurant.repository.RestaurantRepository;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
