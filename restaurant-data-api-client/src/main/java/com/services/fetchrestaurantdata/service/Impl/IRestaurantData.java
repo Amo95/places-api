@@ -1,7 +1,7 @@
 package com.services.fetchrestaurantdata.service.Impl;
 
-import com.services.fetchrestaurantdata.dto.RestaurantClientDto;
-import com.services.fetchrestaurantdata.repository.RestaurantRepository;
+import com.services.fetchrestaurantdata.model.Restaurant;
+import com.services.fetchrestaurantdata.repository.RestaurantApiRepository;
 import com.services.fetchrestaurantdata.service.RestaurantDataService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -10,12 +10,12 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class RestaurantDataServiceImpl implements RestaurantDataService {
+public class IRestaurantData implements RestaurantDataService {
 
-    private final RestaurantRepository restaurantRepository;
+    private final RestaurantApiRepository restaurantRepository;
 
     @Override
-    public List<RestaurantClientDto> getAllRestaurants() {
+    public List<Restaurant> getAllRestaurants() {
         return restaurantRepository.findAll();
     }
 }

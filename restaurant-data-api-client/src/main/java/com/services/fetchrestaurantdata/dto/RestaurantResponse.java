@@ -7,7 +7,7 @@ import lombok.*;
 @ToString
 @Builder
 @AllArgsConstructor
-public class RestaurantClientDto {
+public class RestaurantResponse {
     Long id;
     String name;
     double rating;

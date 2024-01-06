@@ -1,9 +1,9 @@
-package com.services.persistrestaurantdata.restaurant;
+package com.services.persistrestaurantdata;
 
 import aj.org.objectweb.asm.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.services.persistrestaurantdata.restaurant.model.Restaurant;
+import com.services.persistrestaurantdata.restaurant.model.RestaurantEntity;
 import com.services.persistrestaurantdata.restaurant.repository.RestaurantRepository;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -28,7 +28,7 @@ public class DataLoader implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        List<Restaurant> restaurantsInfo = new ArrayList<>();
+        List<RestaurantEntity> restaurantsInfo = new ArrayList<>();
         JsonNode jsonNode;
 
         try(InputStream inputStream = TypeReference.class.getResourceAsStream("/data/restaurants.json")) {
@@ -50,22 +50,22 @@ public class DataLoader implements CommandLineRunner {
         }
     }
 
-    private boolean isNewRestaurantData(List<Restaurant> restaurantsInfo) {
-        List<Restaurant> existingRestaurants = restaurantRepository.findAll();
+    private boolean isNewRestaurantData(List<RestaurantEntity> restaurantsInfo) {
+        List<RestaurantEntity> existingRestaurants = restaurantRepository.findAll();
         return !(
                 existingRestaurants
                         .isEmpty() || !new HashSet<>(existingRestaurants)
                         .containsAll(restaurantsInfo));
     }
 
-    private Restaurant createRestaurantInfoNode(JsonNode restaurant) {
+    private RestaurantEntity createRestaurantInfoNode(JsonNode restaurant) {
         String name =  restaurant.get("name").asText();
         double rating = restaurant.get("rating").asDouble();
         String workingTime = restaurant.get("workday_timing").asText();
         String phoneNumber = restaurant.get("phone").asText();
         String address = restaurant.get("address").asText();
 
-        return Restaurant.builder()
+        return RestaurantEntity.builder()
                 .name(name)
                 .rating(rating)
                 .working_time(workingTime)

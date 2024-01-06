@@ -1,6 +1,6 @@
 package com.services.fetchrestaurantdata.controller;
 
-import com.services.fetchrestaurantdata.dto.RestaurantClientDto;
+import com.services.fetchrestaurantdata.model.Restaurant;
 import com.services.fetchrestaurantdata.service.RestaurantDataService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -26,7 +26,7 @@ public class RestaurantApiController {
             @ApiResponse(responseCode = "200", description = "Successfully fetched restaurant data"),
             @ApiResponse(responseCode = "500", description = "Internal server error occurred")
     })
-    ResponseEntity<List<RestaurantClientDto>> findAll() {
+    ResponseEntity<List<Restaurant>> findAll() {
         return ResponseEntity.ok(dataService.getAllRestaurants());
     }
 }

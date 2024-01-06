@@ -1,4 +1,4 @@
-package com.services.commons.model;
+package com.services.persistrestaurantdata.restaurant.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -9,7 +9,7 @@ import lombok.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Restaurant {
+public class RestaurantEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
