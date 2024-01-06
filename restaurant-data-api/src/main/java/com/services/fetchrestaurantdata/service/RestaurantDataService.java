@@ -7,4 +7,6 @@ import java.util.List;
 public interface RestaurantDataService {
 
     List<Restaurant> getAllRestaurants();
+
+    Restaurant getByName(String restaurantName);
 }

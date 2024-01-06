@@ -18,4 +18,9 @@ public class IRestaurantData implements RestaurantDataService {
     public List<Restaurant> getAllRestaurants() {
         return restaurantRepository.findAll();
     }
+
+    @Override
+    public Restaurant getByName(String restaurantName) {
+        return restaurantRepository.findByName(restaurantName);
+    }
 }
