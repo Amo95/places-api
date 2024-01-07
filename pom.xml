@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.services</groupId>
-    <artifactId>restaurant-data-api</artifactId>
+    <artifactId>places-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>restaurant-data-api</name>
@@ -18,7 +18,7 @@
     <description>restaurant-data-api</description>
 
     <modules>
-        <module>restaurant-data-api-client</module>
+        <module>restaurant-data-api</module>
         <module>persist-restaurant-data</module>
         <module>commons</module>
     </modules>
