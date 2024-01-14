@@ -1,4 +1,4 @@
-# <h1 align = "center">restaurant-data-loader-api</h>
+# <h1 align = "center">places-api</h>
 
 ___ 
 <p align = "center">
