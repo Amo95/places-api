@@ -27,8 +27,8 @@ public class IRestaurantData implements RestaurantDataService {
     }
 
     @Override
-    public Restaurant getByName(String restaurantName) {
-        return restaurantRepository.findByName(restaurantName);
+    public Restaurant findRestaurant(Long id) {
+        return getRestaurant(id);
     }
 
     @Override
@@ -49,14 +49,25 @@ public class IRestaurantData implements RestaurantDataService {
     }
 
     @Override
-    public Restaurant createRestaurant(RestaurantRequest request) {
-        return null;
+    public RestaurantResponse createRestaurant(RestaurantRequest request) {
+        Restaurant restaurant = basicMapper.convertTo(request, Restaurant.class);
+        return basicMapper.convertTo(addRestaurant(restaurant), RestaurantResponse.class);
+    }
+
+    private Object addRestaurant(Restaurant restaurant) {
+
+        Restaurant restaurant1 = Restaurant.builder()
+                .name(restaurant.getName())
+                .rating(restaurant.getRating())
+                .working_time(restaurant.getWorking_time())
+                .phone_number(restaurant.getPhone_number())
+                .address(restaurant.getAddress())
+                .build();
+        return restaurantRepository.save(restaurant1);
     }
 
     @Override
-    public Restaurant removeRestaurant(Long restaurantId) {
-        return null;
+    public void removeRestaurant(Long restaurantId) {
+        restaurantRepository.deleteById(restaurantId);
     }
-
-
 }

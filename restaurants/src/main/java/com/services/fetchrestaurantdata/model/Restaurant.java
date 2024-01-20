@@ -8,6 +8,7 @@ import lombok.*;
 @Entity(name = "restaurant_entity")
 @Getter
 @Setter
+@Builder
 public class Restaurant {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

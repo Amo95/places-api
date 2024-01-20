@@ -10,11 +10,11 @@ public interface RestaurantDataService {
 
     List<Restaurant> getAllRestaurants();
 
-    Restaurant getByName(String restaurantName);
+    Restaurant findRestaurant(Long id);
 
     RestaurantResponse updateRestaurant(Long id, RestaurantRequest request);
 
-    Restaurant createRestaurant(RestaurantRequest request);
+    RestaurantResponse createRestaurant(RestaurantRequest request);
 
-    Restaurant removeRestaurant(Long restaurantId);
+    void removeRestaurant(Long restaurantId);
 }
