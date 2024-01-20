@@ -9,6 +9,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -31,15 +32,15 @@ public class RestaurantApiController {
         return ResponseEntity.ok(dataService.getAllRestaurants());
     }
 
-    @GetMapping("/{restaurantName}")
-    @Operation(summary = "Get a restaurant by name", description = "Returns a single restaurant identified by its name")
+    @GetMapping("/restaurant/{id}")
+    @Operation(summary = "Get a restaurant by id", description = "Returns a single restaurant identified by id")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Successfully retrieved restaurant"),
             @ApiResponse(responseCode = "404", description = "restaurant not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
-    public ResponseEntity<Restaurant> getRestaurant(@PathVariable("restaurantName") String restaurantName){
-        return ResponseEntity.ok(dataService.getByName(restaurantName));
+    public ResponseEntity<Restaurant> fetchRestaurant(@PathVariable("id") Long id){
+        return ResponseEntity.ok(dataService.findRestaurant(id));
     }
 
     @PutMapping("/update/restaurant/{restaurantId}")
@@ -60,8 +61,8 @@ public class RestaurantApiController {
             @ApiResponse(responseCode = "404", description = "restaurant not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
-    public ResponseEntity<Restaurant> addRestaurant(@Valid @RequestBody RestaurantRequest request) {
-        return ResponseEntity.ok(dataService.createRestaurant(request));
+    public ResponseEntity<RestaurantResponse> addRestaurant(@RequestBody RestaurantRequest request) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(dataService.createRestaurant(request));
     }
 
     @DeleteMapping("/delete/restaurant/{restaurantId}")
@@ -71,7 +72,8 @@ public class RestaurantApiController {
             @ApiResponse(responseCode = "404", description = "restaurant not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
-    public ResponseEntity<Restaurant> deleteRestaurant(@PathVariable Long restaurantId){
-        return ResponseEntity.ok(dataService.removeRestaurant(restaurantId));
+    public ResponseEntity<Void> deleteRestaurant(@PathVariable Long restaurantId){
+        dataService.removeRestaurant(restaurantId);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }
