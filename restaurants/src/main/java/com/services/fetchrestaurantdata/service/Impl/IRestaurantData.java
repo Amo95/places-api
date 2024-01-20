@@ -37,6 +37,17 @@ public class IRestaurantData implements RestaurantDataService {
         return basicMapper.convertTo(updateRestaurant(id, restaurant), RestaurantResponse.class);
     }
 
+    @Override
+    public RestaurantResponse createRestaurant(RestaurantRequest request) {
+        Restaurant restaurant = basicMapper.convertTo(request, Restaurant.class);
+        return basicMapper.convertTo(addRestaurant(restaurant), RestaurantResponse.class);
+    }
+
+    @Override
+    public void removeRestaurant(Long restaurantId) {
+        restaurantRepository.deleteById(restaurantId);
+    }
+
     private Restaurant getRestaurant(Long id) {
         return restaurantRepository.findById(id)
                 .orElseThrow(() -> new NotFoundException("Shipping address not found"));
@@ -48,13 +59,7 @@ public class IRestaurantData implements RestaurantDataService {
         return restaurantRepository.save(restaurantData);
     }
 
-    @Override
-    public RestaurantResponse createRestaurant(RestaurantRequest request) {
-        Restaurant restaurant = basicMapper.convertTo(request, Restaurant.class);
-        return basicMapper.convertTo(addRestaurant(restaurant), RestaurantResponse.class);
-    }
-
-    private Object addRestaurant(Restaurant restaurant) {
+    private Restaurant addRestaurant(Restaurant restaurant) {
 
         Restaurant restaurant1 = Restaurant.builder()
                 .name(restaurant.getName())
@@ -65,9 +70,5 @@ public class IRestaurantData implements RestaurantDataService {
                 .build();
         return restaurantRepository.save(restaurant1);
     }
-
-    @Override
-    public void removeRestaurant(Long restaurantId) {
-        restaurantRepository.deleteById(restaurantId);
-    }
 }
+
