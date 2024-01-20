@@ -3,7 +3,9 @@ package com.services.fetchrestaurantdata.model;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity(name = "restaurant_entity")
 @Getter
 @Setter
 public class Restaurant {

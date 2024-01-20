@@ -1,6 +1,7 @@
 package com.services.fetchrestaurantdata.controller;
 
 import com.services.fetchrestaurantdata.dto.RestaurantRequest;
+import com.services.fetchrestaurantdata.dto.RestaurantResponse;
 import com.services.fetchrestaurantdata.model.Restaurant;
 import com.services.fetchrestaurantdata.service.RestaurantDataService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -48,7 +49,7 @@ public class RestaurantApiController {
             @ApiResponse(responseCode = "404", description = "restaurant not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
-    public ResponseEntity<Restaurant> updateRestaurant(@PathVariable("restaurantId") Long id, @Valid @RequestBody RestaurantRequest request) {
+    public ResponseEntity<RestaurantResponse> updateRestaurant(@PathVariable("restaurantId") Long id, @Valid @RequestBody RestaurantRequest request) {
         return ResponseEntity.ok(dataService.updateRestaurant(id, request));
     }
 

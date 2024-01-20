@@ -2,11 +2,7 @@ package com.services.fetchrestaurantdata.dto;
 
 import lombok.*;
 
-@Getter
-@Setter
-@ToString
-@Builder
-@AllArgsConstructor
+@Data
 public class RestaurantResponse {
     Long id;
     String name;
