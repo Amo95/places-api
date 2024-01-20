@@ -1,17 +1,15 @@
 package com.services.fetchrestaurantdata.controller;
 
+import com.services.fetchrestaurantdata.dto.RestaurantRequest;
 import com.services.fetchrestaurantdata.model.Restaurant;
 import com.services.fetchrestaurantdata.service.RestaurantDataService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.Response;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -36,10 +34,43 @@ public class RestaurantApiController {
     @Operation(summary = "Get a restaurant by name", description = "Returns a single restaurant identified by its name")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Successfully retrieved restaurant"),
-            @ApiResponse(responseCode = "404", description = "cart not found"),
+            @ApiResponse(responseCode = "404", description = "restaurant not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
     public ResponseEntity<Restaurant> getRestaurant(@PathVariable("restaurantName") String restaurantName){
         return ResponseEntity.ok(dataService.getByName(restaurantName));
+    }
+
+    @PutMapping("/update/restaurant/{restaurantId}")
+    @Operation(summary = "update restaurant to db", description = "update specific restaurant by id")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Successfully updated restaurant"),
+            @ApiResponse(responseCode = "404", description = "restaurant not found"),
+            @ApiResponse(responseCode = "500", description = "Internal server error")
+    })
+    public ResponseEntity<Restaurant> updateRestaurant(@PathVariable("restaurantId") Long id, @Valid @RequestBody RestaurantRequest request) {
+        return ResponseEntity.ok(dataService.updateRestaurant(id, request));
+    }
+
+    @PostMapping("/add/restaurant/")
+    @Operation(summary = "create new restaurant to db", description = "add specific restaurant to db")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Successfully added restaurant"),
+            @ApiResponse(responseCode = "404", description = "restaurant not found"),
+            @ApiResponse(responseCode = "500", description = "Internal server error")
+    })
+    public ResponseEntity<Restaurant> addRestaurant(@Valid @RequestBody RestaurantRequest request) {
+        return ResponseEntity.ok(dataService.createRestaurant(request));
+    }
+
+    @DeleteMapping("/delete/restaurant/{restaurantId}")
+    @Operation(summary = "remove restaurant from db", description = "remove specific restaurant from db")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Successfully added restaurant"),
+            @ApiResponse(responseCode = "404", description = "restaurant not found"),
+            @ApiResponse(responseCode = "500", description = "Internal server error")
+    })
+    public ResponseEntity<Restaurant> deleteRestaurant(@PathVariable Long restaurantId){
+        return ResponseEntity.ok(dataService.removeRestaurant(restaurantId));
     }
 }
