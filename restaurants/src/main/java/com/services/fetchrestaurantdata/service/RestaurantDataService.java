@@ -17,4 +17,6 @@ public interface RestaurantDataService {
     RestaurantResponse createRestaurant(RestaurantRequest request);
 
     void removeRestaurant(Long restaurantId);
+
+    List<Restaurant> getRestaurantByCountry(String country);
 }

@@ -48,6 +48,13 @@ public class IRestaurantData implements RestaurantDataService {
         restaurantRepository.deleteById(restaurantId);
     }
 
+    @Override
+    public List<Restaurant> getRestaurantByCountry(String country) {
+        return basicMapper.convertListTo(restaurantRepository.findByCountry(country),
+                Restaurant.class);
+
+    }
+
     private Restaurant getRestaurant(Long id) {
         return restaurantRepository.findById(id)
                 .orElseThrow(() -> new NotFoundException("Shipping address not found"));
@@ -67,6 +74,7 @@ public class IRestaurantData implements RestaurantDataService {
                 .working_time(restaurant.getWorking_time())
                 .phone_number(restaurant.getPhone_number())
                 .address(restaurant.getAddress())
+                .country(restaurant.getCountry())
                 .build();
         return restaurantRepository.save(restaurant1);
     }

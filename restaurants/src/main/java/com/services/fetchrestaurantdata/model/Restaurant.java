@@ -18,6 +18,7 @@ public class Restaurant {
     String working_time;
     String phone_number;
     String address;
+    String country;
     @Version
     Integer version;
 }
