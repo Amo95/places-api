@@ -76,4 +76,15 @@ public class RestaurantApiController {
         dataService.removeRestaurant(restaurantId);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
+
+    @GetMapping("/{country}/restaurants")
+    @Operation(summary = "get restaurants by country", description = "filter restaurants by country")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Successfully filtered restaurant"),
+            @ApiResponse(responseCode = "404", description = "country not found"),
+            @ApiResponse(responseCode = "500", description = "Internal server error")
+    })
+    public ResponseEntity<List<Restaurant>> fetchRestaurantByCountry(@PathVariable String country){
+        return ResponseEntity.ok(dataService.getRestaurantByCountry(country));
+    }
 }
