@@ -74,6 +74,7 @@ public class IRestaurantData implements RestaurantDataService {
                 .working_time(restaurant.getWorking_time())
                 .phone_number(restaurant.getPhone_number())
                 .address(restaurant.getAddress())
+                .country(restaurant.getCountry())
                 .build();
         return restaurantRepository.save(restaurant1);
     }
