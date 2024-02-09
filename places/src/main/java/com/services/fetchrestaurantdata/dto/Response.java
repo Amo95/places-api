@@ -3,7 +3,7 @@ package com.services.fetchrestaurantdata.dto;
 import lombok.*;
 
 @Data
-public class RestaurantResponse {
+public class Response {
     Long id;
     String name;
     double rating;

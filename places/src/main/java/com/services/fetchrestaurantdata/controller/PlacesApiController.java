@@ -1,9 +1,9 @@
 package com.services.fetchrestaurantdata.controller;
 
-import com.services.fetchrestaurantdata.dto.RestaurantRequest;
-import com.services.fetchrestaurantdata.dto.RestaurantResponse;
-import com.services.fetchrestaurantdata.model.Restaurant;
-import com.services.fetchrestaurantdata.service.RestaurantDataService;
+import com.services.fetchrestaurantdata.dto.Request;
+import com.services.fetchrestaurantdata.dto.Response;
+import com.services.fetchrestaurantdata.model.PlaceData;
+import com.services.fetchrestaurantdata.service.PlacesDataService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
@@ -18,9 +18,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/restaurants-data")
 @RequiredArgsConstructor
-public class RestaurantApiController {
+public class PlacesApiController {
 
-    private final RestaurantDataService dataService;
+    private final PlacesDataService dataService;
 
     @GetMapping("/all/restaurants")
     @Operation(summary = "fetch all restaurants from db", description = "fetch restaurants")
@@ -28,7 +28,7 @@ public class RestaurantApiController {
             @ApiResponse(responseCode = "200", description = "Successfully fetched restaurant data"),
             @ApiResponse(responseCode = "500", description = "Internal server error occurred")
     })
-    public ResponseEntity<List<Restaurant>> findAll() {
+    public ResponseEntity<List<PlaceData>> findAll() {
         return ResponseEntity.ok(dataService.getAllRestaurants());
     }
 
@@ -39,7 +39,7 @@ public class RestaurantApiController {
             @ApiResponse(responseCode = "404", description = "restaurant not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
-    public ResponseEntity<Restaurant> fetchRestaurant(@PathVariable("id") Long id){
+    public ResponseEntity<PlaceData> fetchRestaurant(@PathVariable("id") Long id){
         return ResponseEntity.ok(dataService.findRestaurant(id));
     }
 
@@ -50,7 +50,7 @@ public class RestaurantApiController {
             @ApiResponse(responseCode = "404", description = "restaurant not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
-    public ResponseEntity<RestaurantResponse> updateRestaurant(@PathVariable("restaurantId") Long id, @Valid @RequestBody RestaurantRequest request) {
+    public ResponseEntity<Response> updateRestaurant(@PathVariable("restaurantId") Long id, @Valid @RequestBody Request request) {
         return ResponseEntity.ok(dataService.updateRestaurant(id, request));
     }
 
@@ -61,7 +61,7 @@ public class RestaurantApiController {
             @ApiResponse(responseCode = "404", description = "restaurant not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
-    public ResponseEntity<RestaurantResponse> addRestaurant(@RequestBody RestaurantRequest request) {
+    public ResponseEntity<Response> addRestaurant(@RequestBody Request request) {
         return ResponseEntity.status(HttpStatus.CREATED).body(dataService.createRestaurant(request));
     }
 
@@ -84,7 +84,7 @@ public class RestaurantApiController {
             @ApiResponse(responseCode = "404", description = "country not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
-    public ResponseEntity<List<Restaurant>> fetchRestaurantByCountry(@PathVariable String country){
+    public ResponseEntity<List<PlaceData>> fetchRestaurantByCountry(@PathVariable String country){
         return ResponseEntity.ok(dataService.getRestaurantByCountry(country));
     }
 }

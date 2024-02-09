@@ -3,7 +3,7 @@ package com.services.fetchrestaurantdata.dto;
 import lombok.*;
 
 @Data
-public class RestaurantRequest {
+public class Request {
     String name;
     double rating;
     String working_time;

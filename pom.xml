@@ -18,7 +18,7 @@
     <description>restaurant-data-api</description>
 
     <modules>
-        <module>restaurants</module>
+        <module>places</module>
         <module>persist-restaurant-data</module>
         <module>commons</module>
     </modules>

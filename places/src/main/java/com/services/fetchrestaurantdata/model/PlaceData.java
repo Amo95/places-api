@@ -9,7 +9,7 @@ import lombok.*;
 @Getter
 @Setter
 @Builder
-public class Restaurant {
+public class PlaceData {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;

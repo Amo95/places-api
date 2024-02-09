@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class RestaurantConfig {
+public class PlacesConfig {
     @Bean
     public ModelMapper modelMapper() {
         ModelMapper mapper = new ModelMapper();

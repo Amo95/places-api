@@ -1,11 +1,11 @@
 package com.services.fetchrestaurantdata.service.Impl;
 
-import com.services.fetchrestaurantdata.dto.RestaurantRequest;
-import com.services.fetchrestaurantdata.dto.RestaurantResponse;
+import com.services.fetchrestaurantdata.dto.Request;
+import com.services.fetchrestaurantdata.dto.Response;
 import com.services.fetchrestaurantdata.exceptions.NotFoundException;
-import com.services.fetchrestaurantdata.model.Restaurant;
-import com.services.fetchrestaurantdata.repository.RestaurantApiRepository;
-import com.services.fetchrestaurantdata.service.RestaurantDataService;
+import com.services.fetchrestaurantdata.model.PlaceData;
+import com.services.fetchrestaurantdata.repository.PlacesApiRepository;
+import com.services.fetchrestaurantdata.service.PlacesDataService;
 import com.services.fetchrestaurantdata.util.BasicMapper;
 import com.services.fetchrestaurantdata.util.UpdatingUtil;
 import lombok.RequiredArgsConstructor;
@@ -16,31 +16,31 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class IRestaurantData implements RestaurantDataService {
+public class IPlacesData implements PlacesDataService {
 
-    private final RestaurantApiRepository restaurantRepository;
+    private final PlacesApiRepository restaurantRepository;
     private final BasicMapper basicMapper;
 
     @Override
-    public List<Restaurant> getAllRestaurants() {
+    public List<PlaceData> getAllRestaurants() {
         return restaurantRepository.findAll();
     }
 
     @Override
-    public Restaurant findRestaurant(Long id) {
+    public PlaceData findRestaurant(Long id) {
         return getRestaurant(id);
     }
 
     @Override
-    public RestaurantResponse updateRestaurant(Long id, RestaurantRequest request) {
-        Restaurant restaurant = basicMapper.convertTo(request, Restaurant.class);
-        return basicMapper.convertTo(updateRestaurant(id, restaurant), RestaurantResponse.class);
+    public Response updateRestaurant(Long id, Request request) {
+        PlaceData restaurant = basicMapper.convertTo(request, PlaceData.class);
+        return basicMapper.convertTo(updateRestaurant(id, restaurant), Response.class);
     }
 
     @Override
-    public RestaurantResponse createRestaurant(RestaurantRequest request) {
-        Restaurant restaurant = basicMapper.convertTo(request, Restaurant.class);
-        return basicMapper.convertTo(addRestaurant(restaurant), RestaurantResponse.class);
+    public Response createRestaurant(Request request) {
+        PlaceData restaurant = basicMapper.convertTo(request, PlaceData.class);
+        return basicMapper.convertTo(addRestaurant(restaurant), Response.class);
     }
 
     @Override
@@ -49,26 +49,25 @@ public class IRestaurantData implements RestaurantDataService {
     }
 
     @Override
-    public List<Restaurant> getRestaurantByCountry(String country) {
+    public List<PlaceData> getRestaurantByCountry(String country) {
         return basicMapper.convertListTo(restaurantRepository.findByCountry(country),
-                Restaurant.class);
-
+                PlaceData.class);
     }
 
-    private Restaurant getRestaurant(Long id) {
+    private PlaceData getRestaurant(Long id) {
         return restaurantRepository.findById(id)
                 .orElseThrow(() -> new NotFoundException("Shipping address not found"));
     }
 
-    private Restaurant updateRestaurant(Long id, Restaurant restaurant) {
-        Restaurant restaurantData = getRestaurant(id);
+    private PlaceData updateRestaurant(Long id, PlaceData restaurant) {
+        PlaceData restaurantData = getRestaurant(id);
         BeanUtils.copyProperties(restaurant, restaurantData, UpdatingUtil.getNullPropertyNames(restaurant));
         return restaurantRepository.save(restaurantData);
     }
 
-    private Restaurant addRestaurant(Restaurant restaurant) {
+    private PlaceData addRestaurant(PlaceData restaurant) {
 
-        Restaurant restaurant1 = Restaurant.builder()
+        PlaceData restaurant1 = PlaceData.builder()
                 .name(restaurant.getName())
                 .rating(restaurant.getRating())
                 .working_time(restaurant.getWorking_time())
