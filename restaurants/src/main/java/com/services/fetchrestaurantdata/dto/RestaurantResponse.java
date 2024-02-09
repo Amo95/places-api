@@ -10,4 +10,5 @@ public class RestaurantResponse {
     String working_time;
     String phone_number;
     String address;
+    String country;
 }
