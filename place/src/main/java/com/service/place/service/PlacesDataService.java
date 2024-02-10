@@ -1,9 +1,9 @@
 package com.service.place.service;
 
-import com.services.fetchrestaurantdata.dto.Request;
-import com.services.fetchrestaurantdata.dto.Response;
-import com.services.fetchrestaurantdata.enums.PlaceType;
-import com.services.fetchrestaurantdata.model.PlaceData;
+import com.service.place.dto.Request;
+import com.service.place.dto.Response;
+import com.service.place.enums.PlaceType;
+import com.service.place.model.PlaceData;
 
 import java.util.List;
 

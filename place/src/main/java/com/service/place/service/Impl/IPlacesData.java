@@ -1,19 +1,8 @@
 package com.service.place.service.Impl;
 
-import com.services.fetchrestaurantdata.dto.Request;
-import com.services.fetchrestaurantdata.dto.Response;
-import com.services.fetchrestaurantdata.enums.PlaceType;
-import com.services.fetchrestaurantdata.exceptions.NotFoundException;
-import com.services.fetchrestaurantdata.model.PlaceData;
-import com.services.fetchrestaurantdata.repository.PlacesApiRepository;
-import com.services.fetchrestaurantdata.service.PlacesDataService;
-import com.services.fetchrestaurantdata.util.BasicMapper;
-import com.services.fetchrestaurantdata.util.UpdatingUtil;
+import com.service.place.service.PlacesDataService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 @RequiredArgsConstructor
