@@ -1,4 +1,4 @@
-package com.services.fetchrestaurantdata.util;
+package com.service.place.util;
 
 import org.springframework.beans.BeanWrapper;
 import org.springframework.beans.BeanWrapperImpl;

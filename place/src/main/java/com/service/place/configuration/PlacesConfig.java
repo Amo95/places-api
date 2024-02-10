@@ -1,4 +1,4 @@
-package com.services.fetchrestaurantdata.configuration;
+package com.service.place.configuration;
 
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;

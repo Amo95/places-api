@@ -1,4 +1,4 @@
-package com.services.fetchrestaurantdata.controller;
+package com.service.place.api;
 
 import com.services.fetchrestaurantdata.dto.Request;
 import com.services.fetchrestaurantdata.dto.Response;
