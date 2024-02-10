@@ -1,4 +1,4 @@
-package com.services.fetchrestaurantdata.exceptions;
+package com.service.place.exceptions;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

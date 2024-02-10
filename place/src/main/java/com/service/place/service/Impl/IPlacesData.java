@@ -1,4 +1,4 @@
-package com.services.fetchrestaurantdata.service.Impl;
+package com.service.place.service.Impl;
 
 import com.services.fetchrestaurantdata.dto.Request;
 import com.services.fetchrestaurantdata.dto.Response;

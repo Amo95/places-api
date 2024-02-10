@@ -1,4 +1,4 @@
-package com.services.fetchrestaurantdata.util;
+package com.service.place.util;
 
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
