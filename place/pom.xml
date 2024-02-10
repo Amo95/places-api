@@ -8,10 +8,11 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>places</artifactId>
+    <groupId>com.service</groupId>
+    <artifactId>place</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-
-<!--    <packaging>jar</packaging>-->
+    <name>place</name>
+    <description>place</description>
 
     <properties>
         <java.version>17</java.version>

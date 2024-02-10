@@ -2,6 +2,7 @@ package com.services.fetchrestaurantdata.controller;
 
 import com.services.fetchrestaurantdata.dto.Request;
 import com.services.fetchrestaurantdata.dto.Response;
+import com.services.fetchrestaurantdata.enums.PlaceType;
 import com.services.fetchrestaurantdata.model.PlaceData;
 import com.services.fetchrestaurantdata.service.PlacesDataService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -29,7 +30,17 @@ public class PlacesApiController {
             @ApiResponse(responseCode = "500", description = "Internal server error occurred")
     })
     public ResponseEntity<List<PlaceData>> findAll() {
-        return ResponseEntity.ok(dataService.getAllRestaurants());
+        return ResponseEntity.ok(dataService.getAllPlaces());
+    }
+
+    @GetMapping("/all/{places}/{country}")
+    @Operation(summary = "fetch data by type of place and country", description = "fetch restaurants")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Successfully fetched restaurant data"),
+            @ApiResponse(responseCode = "500", description = "Internal server error occurred")
+    })
+    public ResponseEntity<List<PlaceData>> fetchPlaceData(@PathVariable("places") PlaceType placeType, @PathVariable("country") String country) {
+        return ResponseEntity.ok(dataService.getAllRestaurantsByPlacesOrCountry(placeType, country));
     }
 
     @GetMapping("/restaurant/{id}")

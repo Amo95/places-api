@@ -2,6 +2,7 @@ package com.services.fetchrestaurantdata.service.Impl;
 
 import com.services.fetchrestaurantdata.dto.Request;
 import com.services.fetchrestaurantdata.dto.Response;
+import com.services.fetchrestaurantdata.enums.PlaceType;
 import com.services.fetchrestaurantdata.exceptions.NotFoundException;
 import com.services.fetchrestaurantdata.model.PlaceData;
 import com.services.fetchrestaurantdata.repository.PlacesApiRepository;
@@ -18,17 +19,17 @@ import java.util.List;
 @RequiredArgsConstructor
 public class IPlacesData implements PlacesDataService {
 
-    private final PlacesApiRepository restaurantRepository;
+    private final PlacesApiRepository placesApiRepository;
     private final BasicMapper basicMapper;
 
     @Override
-    public List<PlaceData> getAllRestaurants() {
-        return restaurantRepository.findAll();
+    public List<PlaceData> getAllPlaces() {
+        return placesApiRepository.findAll();
     }
 
     @Override
     public PlaceData findRestaurant(Long id) {
-        return getRestaurant(id);
+        return getPlaceData(id);
     }
 
     @Override
@@ -45,37 +46,44 @@ public class IPlacesData implements PlacesDataService {
 
     @Override
     public void removeRestaurant(Long restaurantId) {
-        restaurantRepository.deleteById(restaurantId);
+        placesApiRepository.deleteById(restaurantId);
     }
 
     @Override
     public List<PlaceData> getRestaurantByCountry(String country) {
-        return basicMapper.convertListTo(restaurantRepository.findByCountry(country),
+        return basicMapper.convertListTo(placesApiRepository.findByCountry(country),
                 PlaceData.class);
     }
 
-    private PlaceData getRestaurant(Long id) {
-        return restaurantRepository.findById(id)
+    @Override
+    public List<PlaceData> getAllRestaurantsByPlacesOrCountry(PlaceType placeType, String country) {
+        return basicMapper.convertListTo(placesApiRepository.findByCountryAndPlaces(country, placeType),
+                PlaceData.class);
+    }
+
+    private PlaceData getPlaceData(Long id) {
+        return placesApiRepository.findById(id)
                 .orElseThrow(() -> new NotFoundException("Shipping address not found"));
     }
 
-    private PlaceData updateRestaurant(Long id, PlaceData restaurant) {
-        PlaceData restaurantData = getRestaurant(id);
-        BeanUtils.copyProperties(restaurant, restaurantData, UpdatingUtil.getNullPropertyNames(restaurant));
-        return restaurantRepository.save(restaurantData);
+    private PlaceData updateRestaurant(Long id, PlaceData data) {
+        PlaceData placeData = getPlaceData(id);
+        BeanUtils.copyProperties(data, placeData, UpdatingUtil.getNullPropertyNames(data));
+        return placesApiRepository.save(placeData);
     }
 
-    private PlaceData addRestaurant(PlaceData restaurant) {
+    private PlaceData addRestaurant(PlaceData data) {
 
-        PlaceData restaurant1 = PlaceData.builder()
-                .name(restaurant.getName())
-                .rating(restaurant.getRating())
-                .working_time(restaurant.getWorking_time())
-                .phone_number(restaurant.getPhone_number())
-                .address(restaurant.getAddress())
-                .country(restaurant.getCountry())
+        PlaceData placeData = PlaceData.builder()
+                .name(data.getName())
+                .rating(data.getRating())
+                .working_time(data.getWorking_time())
+                .phone_number(data.getPhone_number())
+                .address(data.getAddress())
+                .country(data.getCountry())
+                .places(data.getPlaces())
                 .build();
-        return restaurantRepository.save(restaurant1);
+        return placesApiRepository.save(placeData);
     }
 }
 

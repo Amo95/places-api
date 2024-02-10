@@ -2,13 +2,14 @@ package com.services.fetchrestaurantdata.service;
 
 import com.services.fetchrestaurantdata.dto.Request;
 import com.services.fetchrestaurantdata.dto.Response;
+import com.services.fetchrestaurantdata.enums.PlaceType;
 import com.services.fetchrestaurantdata.model.PlaceData;
 
 import java.util.List;
 
 public interface PlacesDataService {
 
-    List<PlaceData> getAllRestaurants();
+    List<PlaceData> getAllPlaces();
 
     PlaceData findRestaurant(Long id);
 
@@ -19,4 +20,6 @@ public interface PlacesDataService {
     void removeRestaurant(Long restaurantId);
 
     List<PlaceData> getRestaurantByCountry(String country);
+
+    List<PlaceData> getAllRestaurantsByPlacesOrCountry(PlaceType placeType, String country);
 }
