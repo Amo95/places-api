@@ -1,13 +1,13 @@
 package com.service.place;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PlaceApplicationTests {
+public class PlaceApplicationTests {
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
 
 }
