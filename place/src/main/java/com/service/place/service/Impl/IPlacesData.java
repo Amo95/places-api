@@ -1,8 +1,19 @@
 package com.service.place.service.Impl;
 
+import com.service.place.dto.Request;
+import com.service.place.dto.Response;
+import com.service.place.enums.PlaceType;
+import com.service.place.exceptions.NotFoundException;
+import com.service.place.model.PlaceData;
+import com.service.place.repository.PlacesApiRepository;
 import com.service.place.service.PlacesDataService;
+import com.service.place.util.BasicMapper;
+import com.service.place.util.UpdatingUtil;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor
@@ -52,7 +63,7 @@ public class IPlacesData implements PlacesDataService {
 
     private PlaceData getPlaceData(Long id) {
         return placesApiRepository.findById(id)
-                .orElseThrow(() -> new NotFoundException("Shipping address not found"));
+                .orElseThrow(() -> new NotFoundException("place not found"));
     }
 
     private PlaceData updateRestaurant(Long id, PlaceData data) {
