@@ -3,12 +3,16 @@ package com.service.place.service.Impl;
 import com.service.place.dto.Request;
 import com.service.place.dto.Response;
 import com.service.place.enums.PlaceType;
+import com.service.place.exceptions.NotFoundException;
 import com.service.place.model.PlaceData;
 import com.service.place.repository.PlacesApiRepository;
 import com.service.place.service.PlacesDataService;
+import com.service.place.util.BasicMapper;
+import com.service.place.util.UpdatingUtil;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,6 +23,7 @@ public class IPlacesData implements PlacesDataService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(IPlacesData.class);
     private final PlacesApiRepository placesApiRepository;
+    private final BasicMapper basicMapper;
 
     @Override
     public List<PlaceData> getAllPlaces() {
@@ -28,12 +33,13 @@ public class IPlacesData implements PlacesDataService {
 
     @Override
     public PlaceData findRestaurant(Long id) {
-        return null;
+        return getPlaceData(id);
     }
 
     @Override
     public Response updateRestaurant(Long id, Request request) {
-        return null;
+        PlaceData restaurant = basicMapper.convertTo(request, PlaceData.class);
+        return basicMapper.convertTo(updatedRestaurant(id, restaurant), Response.class);
     }
 
     @Override
@@ -54,6 +60,17 @@ public class IPlacesData implements PlacesDataService {
     @Override
     public List<PlaceData> getAllRestaurantsByPlacesOrCountry(PlaceType placeType, String country) {
         return List.of();
+    }
+
+    private PlaceData getPlaceData(Long id) {
+        return placesApiRepository.findById(id)
+                .orElseThrow(() -> new NotFoundException("place not found"));
+    }
+
+    private PlaceData updatedRestaurant(Long id, PlaceData data) {
+        PlaceData placeData = getPlaceData(id);
+        BeanUtils.copyProperties(data, placeData, UpdatingUtil.getNullPropertyNames(data));
+        return placesApiRepository.save(placeData);
     }
 }
 
