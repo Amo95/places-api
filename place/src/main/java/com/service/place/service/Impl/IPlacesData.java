@@ -22,7 +22,7 @@ public class IPlacesData implements PlacesDataService {
 
     @Override
     public List<PlaceData> getAllPlaces() {
-        LOGGER.info(String.format("data fetched from db => %s", placesApiRepository.findAll());
+        LOGGER.info(String.format("data fetched from db => %s", placesApiRepository.findAll()));
         return placesApiRepository.findAll();
     }
 
