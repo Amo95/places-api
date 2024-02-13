@@ -44,7 +44,8 @@ public class IPlacesData implements PlacesDataService {
 
     @Override
     public Response createRestaurant(Request request) {
-        return null;
+        PlaceData restaurant = basicMapper.convertTo(request, PlaceData.class);
+        return basicMapper.convertTo(addRestaurant(restaurant), Response.class);
     }
 
     @Override
@@ -70,6 +71,20 @@ public class IPlacesData implements PlacesDataService {
     private PlaceData updatedRestaurant(Long id, PlaceData data) {
         PlaceData placeData = getPlaceData(id);
         BeanUtils.copyProperties(data, placeData, UpdatingUtil.getNullPropertyNames(data));
+        return placesApiRepository.save(placeData);
+    }
+
+    private PlaceData addRestaurant(PlaceData data) {
+
+        PlaceData placeData = PlaceData.builder()
+                .name(data.getName())
+                .rating(data.getRating())
+                .working_time(data.getWorking_time())
+                .phone_number(data.getPhone_number())
+                .address(data.getAddress())
+                .country(data.getCountry())
+                .places(data.getPlaces())
+                .build();
         return placesApiRepository.save(placeData);
     }
 }
