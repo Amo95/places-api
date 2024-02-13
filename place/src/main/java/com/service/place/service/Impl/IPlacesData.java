@@ -50,7 +50,7 @@ public class IPlacesData implements PlacesDataService {
 
     @Override
     public void removeRestaurant(Long restaurantId) {
-
+        placesApiRepository.deleteById(restaurantId);
     }
 
     @Override
