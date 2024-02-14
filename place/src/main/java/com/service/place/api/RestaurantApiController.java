@@ -2,6 +2,7 @@ package com.service.place.api;
 
 import com.service.place.dto.Request;
 import com.service.place.dto.Response;
+import com.service.place.enums.Countries;
 import com.service.place.enums.PlaceType;
 import com.service.place.model.PlaceData;
 import com.service.place.service.PlacesDataService;
@@ -39,7 +40,7 @@ public class RestaurantApiController {
             @ApiResponse(responseCode = "200", description = "Successfully fetched restaurant data"),
             @ApiResponse(responseCode = "500", description = "Internal server error occurred")
     })
-    public ResponseEntity<List<PlaceData>> fetchPlaceData(@PathVariable("places") PlaceType placeType, @PathVariable("country") String country) {
+    public ResponseEntity<List<PlaceData>> fetchPlaceData(@PathVariable("places") PlaceType placeType, @PathVariable("country") Countries country) {
         return ResponseEntity.ok(dataService.getAllRestaurantsByPlacesOrCountry(placeType, country));
     }
 
@@ -95,7 +96,7 @@ public class RestaurantApiController {
             @ApiResponse(responseCode = "404", description = "country not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
-    public ResponseEntity<List<PlaceData>> fetchRestaurantByCountry(@PathVariable String country){
+    public ResponseEntity<List<PlaceData>> fetchRestaurantByCountry(@PathVariable Countries country){
         return ResponseEntity.ok(dataService.getRestaurantByCountry(country));
     }
 }

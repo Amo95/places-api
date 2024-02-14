@@ -2,6 +2,7 @@ package com.service.place.service.Impl;
 
 import com.service.place.dto.Request;
 import com.service.place.dto.Response;
+import com.service.place.enums.Countries;
 import com.service.place.enums.PlaceType;
 import com.service.place.exceptions.NotFoundException;
 import com.service.place.model.PlaceData;
@@ -54,13 +55,14 @@ public class IPlacesData implements PlacesDataService {
     }
 
     @Override
-    public List<PlaceData> getRestaurantByCountry(String country) {
-        return List.of();
+    public List<PlaceData> getRestaurantByCountry(Countries country) {
+        return basicMapper.convertListTo(placesApiRepository.findByCountry(country),
+                PlaceData.class);
     }
 
     @Override
-    public List<PlaceData> getAllRestaurantsByPlacesOrCountry(PlaceType placeType, String country) {
-        return List.of();
+    public List<PlaceData> getAllRestaurantsByPlacesOrCountry(PlaceType placeType, Countries country) {
+        return basicMapper.convertListTo(placesApiRepository.findByPlacesAndCountry(placeType, country);
     }
 
     private PlaceData getPlaceData(Long id) {
