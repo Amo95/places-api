@@ -62,7 +62,8 @@ public class IPlacesData implements PlacesDataService {
 
     @Override
     public List<PlaceData> getAllRestaurantsByPlacesOrCountry(PlaceType placeType, Countries country) {
-        return basicMapper.convertListTo(placesApiRepository.findByPlacesAndCountry(placeType, country);
+        return basicMapper.convertListTo(placesApiRepository.findByPlacesAndCountry(placeType, country)
+                , PlaceData.class);
     }
 
     private PlaceData getPlaceData(Long id) {
