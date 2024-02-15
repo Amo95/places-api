@@ -5,7 +5,7 @@ import com.service.place.dto.Response;
 import com.service.place.enums.Countries;
 import com.service.place.enums.PlaceType;
 import com.service.place.model.PlaceData;
-import com.service.place.service.PlacesDataService;
+import com.service.place.service.RestaurantDataService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
@@ -22,7 +22,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class RestaurantApiController {
 
-    private final PlacesDataService dataService;
+    private final RestaurantDataService dataService;
 
     @GetMapping("/all/restaurants")
     @Operation(summary = "fetch all restaurants from db", description = "fetch restaurants")

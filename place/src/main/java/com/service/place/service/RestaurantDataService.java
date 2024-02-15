@@ -8,7 +8,7 @@ import com.service.place.model.PlaceData;
 
 import java.util.List;
 
-public interface PlacesDataService {
+public interface RestaurantDataService {
 
     List<PlaceData> getAllPlaces();
 
