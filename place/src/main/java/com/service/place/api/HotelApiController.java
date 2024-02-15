@@ -18,16 +18,16 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/restaurants-data")
+@RequestMapping("/api/v1/hotels-data")
 @RequiredArgsConstructor
-public class RestaurantApiController {
+public class HotelApiController {
 
     private final RestaurantDataService dataService;
 
-    @GetMapping("/all/restaurants")
-    @Operation(summary = "fetch all restaurants from db", description = "fetch restaurants")
+    @GetMapping("/all/hotels")
+    @Operation(summary = "fetch all hotels from db", description = "fetch hotels")
     @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Successfully fetched restaurant data"),
+            @ApiResponse(responseCode = "200", description = "Successfully fetched hotels data"),
             @ApiResponse(responseCode = "500", description = "Internal server error occurred")
     })
     public ResponseEntity<List<PlaceData>> findAll() {
@@ -35,34 +35,34 @@ public class RestaurantApiController {
     }
 
     @GetMapping("/all/{places}/{country}")
-    @Operation(summary = "fetch data by type of place and country", description = "fetch restaurants")
+    @Operation(summary = "fetch data by type of place and country", description = "fetch hotels")
     @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Successfully fetched restaurant data"),
+            @ApiResponse(responseCode = "200", description = "Successfully fetched hotels data"),
             @ApiResponse(responseCode = "500", description = "Internal server error occurred")
     })
     public ResponseEntity<List<PlaceData>> fetchPlaceData(@PathVariable("places") PlaceType placeType, @PathVariable("country") Countries country) {
         return ResponseEntity.ok(dataService.getAllRestaurantsByPlacesOrCountry(placeType, country));
     }
 
-    @GetMapping("/restaurant/{id}")
-    @Operation(summary = "Get a restaurant by id", description = "Returns a single restaurant identified by id")
+    @GetMapping("/hotel/{id}")
+    @Operation(summary = "Get a hotel by id", description = "Returns a single hotel identified by id")
     @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Successfully retrieved restaurant"),
-            @ApiResponse(responseCode = "404", description = "restaurant not found"),
+            @ApiResponse(responseCode = "200", description = "Successfully retrieved hotel"),
+            @ApiResponse(responseCode = "404", description = "hotel not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
     public ResponseEntity<PlaceData> fetchRestaurant(@PathVariable("id") Long id){
         return ResponseEntity.ok(dataService.findRestaurant(id));
     }
 
-    @PutMapping("/update/restaurant/{restaurantId}")
+    @PutMapping("/update/hotel/{hotelId}")
     @Operation(summary = "update restaurant to db", description = "update specific restaurant by id")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Successfully updated restaurant"),
             @ApiResponse(responseCode = "404", description = "restaurant not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
-    public ResponseEntity<Response> updateRestaurant(@PathVariable("restaurantId") Long id, @Valid @RequestBody Request request) {
+    public ResponseEntity<Response> updateRestaurant(@PathVariable("hotelId") Long id, @Valid @RequestBody Request request) {
         return ResponseEntity.ok(dataService.updateRestaurant(id, request));
     }
 

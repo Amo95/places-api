@@ -7,7 +7,7 @@ import com.service.place.enums.PlaceType;
 import com.service.place.exceptions.NotFoundException;
 import com.service.place.model.PlaceData;
 import com.service.place.repository.PlacesApiRepository;
-import com.service.place.service.PlacesDataService;
+import com.service.place.service.RestaurantDataService;
 import com.service.place.util.BasicMapper;
 import com.service.place.util.UpdatingUtil;
 import lombok.RequiredArgsConstructor;
@@ -20,9 +20,9 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class IPlacesData implements PlacesDataService {
+public class RestaurantDataImpl implements RestaurantDataService {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(IPlacesData.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(RestaurantDataImpl.class);
     private final PlacesApiRepository placesApiRepository;
     private final BasicMapper basicMapper;
 

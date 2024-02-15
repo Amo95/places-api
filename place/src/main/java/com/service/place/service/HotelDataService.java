@@ -8,13 +8,12 @@ import com.service.place.model.PlaceData;
 
 import java.util.List;
 
-public interface PlacesDataService {
-
+public interface HotelDataService {
     List<PlaceData> getAllPlaces();
 
-    PlaceData findRestaurant(Long id);
+    PlaceData findHotel(Long id);
 
-    Response updateRestaurant(Long id, Request request);
+    Response updateHotel(Long id, Request request);
 
     Response createRestaurant(Request request);
 
