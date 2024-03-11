@@ -15,7 +15,7 @@
     </a>
 </p>
 
-Building a comprehensive API for restaurants, hotels, and schools in a specific location. Data is stored in a database, and endpoints are exposed using Spring Boot. Explore a unified solution for accessing information about local establishments effortlessly.
+Building a comprehensive API for places. Data is stored in a database, and endpoints are exposed using Spring Boot. Explore a unified solution for accessing information about local establishments effortlessly.
 
 
 
